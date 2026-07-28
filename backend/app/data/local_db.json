@@ -1,0 +1,1697 @@
+{
+  "users": [
+    {
+      "username": "updated_1785144645",
+      "email": "test_1785144645@careerboost.ai",
+      "hashed_password": "$2b$12$raUQfPEaw0uJuI7diIJwU.iWLA4QiEsIjzu0D/RTg23VLHNHO8RMO",
+      "created_at": {
+        "$date": "2026-07-27T09:30:45.811Z"
+      },
+      "_id": {
+        "$oid": "6a672545a7da0b7f3b6fcee2"
+      }
+    },
+    {
+      "username": "updated_1785145632",
+      "email": "test_1785145632@careerboost.ai",
+      "hashed_password": "$2b$12$GzQRZR0n42NIvORrMlTbM.q.KEBfJ1SlWSues2XE55OjdoUmQteCu",
+      "created_at": {
+        "$date": "2026-07-27T09:47:13.183Z"
+      },
+      "_id": {
+        "$oid": "6a672921effb013f958b3701"
+      }
+    },
+    {
+      "username": "updated_1785145752",
+      "email": "test_1785145752@careerboost.ai",
+      "hashed_password": "$2b$12$JdnU4XlCktc5oriYh6qpge.xXgL3VzEt4oY.HiRHxj2vgGp.kVD9a",
+      "created_at": {
+        "$date": "2026-07-27T09:49:13.069Z"
+      },
+      "_id": {
+        "$oid": "6a672999adb17b46437becda"
+      }
+    },
+    {
+      "username": "updated_1785146786",
+      "email": "test_1785146786@careerboost.ai",
+      "hashed_password": "$2b$12$4XsG35pr2CJUI/isC2M4zeZTymwgN.r2LcR8gSZl0kmvd1/q.9.DO",
+      "created_at": {
+        "$date": "2026-07-27T10:06:26.808Z"
+      },
+      "_id": {
+        "$oid": "6a672da2c8ee2d32b3cf5358"
+      }
+    },
+    {
+      "username": "updated_1785147167",
+      "email": "test_1785147167@careerboost.ai",
+      "hashed_password": "$2b$12$WoQtvFXzjAoe.qpPj.1DceDRGB4ytF3o61ZSj8YSyQuOEugaqy/E.",
+      "created_at": {
+        "$date": "2026-07-27T10:12:48.044Z"
+      },
+      "_id": {
+        "$oid": "6a672f208e67e76c920d5e75"
+      }
+    },
+    {
+      "username": "updated_1785148817",
+      "email": "test_1785148817@careerboost.ai",
+      "hashed_password": "$2b$12$lnOnpjXq46dP1nSgKpjFHuwOEqEqi2YuK0VSTkZFSflXRAWCAZdqO",
+      "created_at": {
+        "$date": "2026-07-27T10:40:18.039Z"
+      },
+      "_id": {
+        "$oid": "6a6735922fbaabd91601ad83"
+      }
+    },
+    {
+      "username": "updated_1785148890",
+      "email": "test_1785148890@careerboost.ai",
+      "hashed_password": "$2b$12$VZHO/EqbAhAfSVqsZ5gj5uqGBgkazoS85.csfTGoSUuVPsfelecAK",
+      "created_at": {
+        "$date": "2026-07-27T10:41:30.552Z"
+      },
+      "_id": {
+        "$oid": "6a6735dab2f9b2045f44baf2"
+      }
+    },
+    {
+      "username": "testuser99",
+      "email": "test99@careerboost.ai",
+      "hashed_password": "$2b$12$djasdTC7kZI5q5SUX2w1fOZVVdNxdftP639wiDP6U/DAhR2lD7UHG",
+      "created_at": {
+        "$date": "2026-07-27T10:49:23.814Z"
+      },
+      "_id": {
+        "$oid": "6a6737b30da2f37d327456ec"
+      }
+    },
+    {
+      "username": "updated_1785149396",
+      "email": "test_1785149396@careerboost.ai",
+      "hashed_password": "$2b$12$XTsyu8OLBfO0PpIuARXGzussUoL9dGHL1GFDC4LK61YTh53nNOoGa",
+      "created_at": {
+        "$date": "2026-07-27T10:49:56.646Z"
+      },
+      "_id": {
+        "$oid": "6a6737d4721a9ece5e6c946f"
+      }
+    },
+    {
+      "username": "updated_1785153755",
+      "email": "test_1785153755@careerboost.ai",
+      "hashed_password": "$2b$12$ZLF6s0I5IICGEf0dKCVBd.1MEpH.67dk7eeCvnSwmvwmM5KZqrvI2",
+      "created_at": {
+        "$date": "2026-07-27T12:02:36.082Z"
+      },
+      "_id": {
+        "$oid": "6a6748dc54579fea8508d807"
+      }
+    },
+    {
+      "username": "updated_1785154534",
+      "email": "test_1785154534@careerboost.ai",
+      "hashed_password": "$2b$12$AQnSmi3lhU7.ipOWBIXgwuo94guYy0sWoy24eHRJiMoJ1Co5aLY.i",
+      "created_at": {
+        "$date": "2026-07-27T12:15:34.744Z"
+      },
+      "_id": {
+        "$oid": "6a674be6ffd9e6fd794767e5"
+      }
+    },
+    {
+      "username": "updated_1785155841",
+      "email": "test_1785155841@careerboost.ai",
+      "hashed_password": "$2b$12$qeJ9jZNno27bhG17qM/CFuGj5kuH3LYlrPJHxMsXLXoXmof/oC.GK",
+      "created_at": {
+        "$date": "2026-07-27T12:37:21.649Z"
+      },
+      "_id": {
+        "$oid": "6a6751017dea14c53101c42c"
+      }
+    },
+    {
+      "username": "updated_1785156530",
+      "email": "test_1785156530@careerboost.ai",
+      "hashed_password": "$2b$12$U84qNTlHiiI0TLgsVxdxAu7WFqfeMRDd9yfJx67yCTQlmC2tQgsxS",
+      "created_at": {
+        "$date": "2026-07-27T12:48:50.652Z"
+      },
+      "_id": {
+        "$oid": "6a6753b2ec75b5eba566296c"
+      }
+    },
+    {
+      "username": "updated_1785160127",
+      "email": "test_1785160127@careerboost.ai",
+      "hashed_password": "$2b$12$anwqdOooo4vhQGzap6xmLudjKwTuKKdGshKTTItCrtB.wkVT63wmu",
+      "created_at": {
+        "$date": "2026-07-27T13:48:47.633Z"
+      },
+      "_id": {
+        "$oid": "6a6761bf43dcce45e6a0e50e"
+      }
+    },
+    {
+      "username": "updated_1785166010",
+      "email": "test_1785166010@careerboost.ai",
+      "hashed_password": "$2b$12$1DWHzmEVEUVuiypMjUJpGetXsBMDENlk3B9P2YgqUt979qmpiUEkq",
+      "created_at": {
+        "$date": "2026-07-27T15:26:51.127Z"
+      },
+      "_id": {
+        "$oid": "6a6778bbac67ecbcb9f14e7a"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785166101",
+      "email": "test_1785166101@careerboost.ai",
+      "hashed_password": "$2b$12$2gY87bIybWW4BFIlI9WXA.LY.VVbDB7zzYkf6nXDo42nQDgogIXVW",
+      "created_at": {
+        "$date": "2026-07-27T15:28:22.249Z"
+      },
+      "_id": {
+        "$oid": "6a677916344ece798b8c91bd"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785167251",
+      "email": "test_1785167251@careerboost.ai",
+      "hashed_password": "$2b$12$rhQntrCRlUsFdaXiinJWJ.RJoEB/1uCNugOQurWU0KQLMgIQ3aIjS",
+      "created_at": {
+        "$date": "2026-07-27T15:47:31.860Z"
+      },
+      "_id": {
+        "$oid": "6a677d93fe732b15bd56600a"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "Ramya",
+      "email": "ramkn.1907@gmail.com",
+      "hashed_password": "$2b$12$APEjSdYkz05sU8lwunIp0.jjX8qG/RWDSoaf8X8xIP.UcLBGtZiri",
+      "created_at": {
+        "$date": "2026-07-27T16:45:00.174Z"
+      },
+      "_id": {
+        "$oid": "6a678b0cfd3384960f6ca785"
+      },
+      "college": "Rajalakshmi Institute of Technology",
+      "degree": "B.E. Computer Science and Engineering",
+      "grad_year": "2029",
+      "linkedin": "linkedin.com/in/ramya-k-n-04402537b",
+      "github": "github.com/ramyakn1907",
+      "target_role": "Software Developer"
+    },
+    {
+      "username": "updated_1785172927",
+      "email": "test_1785172927@careerboost.ai",
+      "hashed_password": "$2b$12$h40qVuwUgD2ClqHG8e1rMez2.N6ixeQLuWdJwrV.SpN4wlZ6wmgHW",
+      "created_at": {
+        "$date": "2026-07-27T17:22:07.654Z"
+      },
+      "_id": {
+        "$oid": "6a6793bf21d1094d12863668"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785173209",
+      "email": "test_1785173209@careerboost.ai",
+      "hashed_password": "$2b$12$iztXpygUJONjRvAUomqg6ubhwzHf8CM9qM2gvmoRt5B8nuhmcJaza",
+      "created_at": {
+        "$date": "2026-07-27T17:26:49.863Z"
+      },
+      "_id": {
+        "$oid": "6a6794d962fbf8c7bf2311a5"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785173693",
+      "email": "test_1785173693@careerboost.ai",
+      "hashed_password": "$2b$12$zABoOz9qqn2MFPJ5dL47KeuvCJZ0M1Ontwzmc58ii8QBVAO5QIMom",
+      "created_at": {
+        "$date": "2026-07-27T17:34:54.139Z"
+      },
+      "_id": {
+        "$oid": "6a6796be03c9371fc5babad8"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785173929",
+      "email": "test_1785173929@careerboost.ai",
+      "hashed_password": "$2b$12$NXe7.jjAFrsEIi306l7OMu9uqfh51rZdSJumLYZ6xVQNUFrU12uuW",
+      "created_at": {
+        "$date": "2026-07-27T17:38:49.569Z"
+      },
+      "_id": {
+        "$oid": "6a6797a90b49cc526658a3b6"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785174322",
+      "email": "test_1785174322@careerboost.ai",
+      "hashed_password": "$2b$12$JvoB2kfc.9JfKPOsagqysuLi/q9GK0KDoRjbk6Hx/FgkMYYPA5eIO",
+      "created_at": {
+        "$date": "2026-07-27T17:45:22.332Z"
+      },
+      "_id": {
+        "$oid": "6a679932bd2e117cc4e5bf36"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785221228",
+      "email": "test_1785221228@careerboost.ai",
+      "hashed_password": "$2b$12$oEQBz24g1A4tt9.OtEZhneG5hJTTOkox1rqZ6N4uUQz78gutuIU2S",
+      "created_at": {
+        "$date": "2026-07-28T06:47:08.781Z"
+      },
+      "_id": {
+        "$oid": "6a68506c7dc7e6a4fd33705e"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785221418",
+      "email": "test_1785221418@careerboost.ai",
+      "hashed_password": "$2b$12$QgehhxCmcP6w3Ce9T1gLHOeSOddcxqIWP.SOkcSYRfyIQS/zuefrK",
+      "created_at": {
+        "$date": "2026-07-28T06:50:18.840Z"
+      },
+      "_id": {
+        "$oid": "6a68512a9bc71e74f661b92a"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785222072",
+      "email": "test_1785222072@careerboost.ai",
+      "hashed_password": "$2b$12$SRdnJ3a4nVGgV/fa6l696.R1KXBnPGcMQhwU6hCzLgrx.rspdj7aa",
+      "created_at": {
+        "$date": "2026-07-28T07:01:13.263Z"
+      },
+      "_id": {
+        "$oid": "6a6853b981a64bb6836f7383"
+      }
+    },
+    {
+      "username": "updated_1785222417",
+      "email": "test_1785222417@careerboost.ai",
+      "hashed_password": "$2b$12$E/qKgsW3u9jDIaDR/xeR0u.FlOd0cnXHZniclciiNMDDk27KkRcrG",
+      "created_at": {
+        "$date": "2026-07-28T07:06:57.381Z"
+      },
+      "_id": {
+        "$oid": "6a685511a285c930c4d3dc58"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785222829",
+      "email": "test_1785222829@careerboost.ai",
+      "hashed_password": "$2b$12$fi1GDSuIDok9.tlCHxzqxO/f.mZOOJdeFS0tP19euLpUGaym1FX4S",
+      "created_at": {
+        "$date": "2026-07-28T07:13:49.966Z"
+      },
+      "_id": {
+        "$oid": "6a6856ad87bf91bcd3511af9"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "updated_1785223280",
+      "email": "test_1785223280@careerboost.ai",
+      "hashed_password": "$2b$12$EzoXG2o/XD7rHaLqj/EDAuMZQyRVUJ3DOt3sWTT7fNxfn4Qdo6ozW",
+      "created_at": {
+        "$date": "2026-07-28T07:21:20.622Z"
+      },
+      "_id": {
+        "$oid": "6a685870c66804af879a69a6"
+      },
+      "target_role": "Software Engineer"
+    },
+    {
+      "username": "Harini K N",
+      "email": "ramyakn9765@gmail.com",
+      "hashed_password": "$2b$12$FZekqDH.CywjsCQoP6csTuD4YKXMWvk3qX.xe6j8EySxbu8w82aEG",
+      "created_at": {
+        "$date": "2026-07-28T07:23:58.381Z"
+      },
+      "_id": {
+        "$oid": "6a68590e20b15d74a7daed7e"
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "user_id": {
+        "$oid": "6a672661dba7e90f31b7a7bc"
+      },
+      "filename": "Ramya K N Resume.pdf",
+      "extracted_text": "**RAMYA K N**  \nChennai, Tamil Nadu | 9363605986 | ramya.250342@ritchennai.edu.in  \ngithub.com/ramyakn1907 | linkedin.com/in/ramya-k-n-04402537b  \n\n---\n\n### **OBJECTIVE**\nMotivated Computer Science Engineering student with hands-on experience in full-stack web development, Python, and database management. Seeking internship/entry-level opportunities to apply programming and problem-solving skills to real-world projects.\n\n---\n\n### **EDUCATION**\n\n* **Rajalakshmi Institute of Technology**  \n  B.E. Computer Science and Engineering  \n  2025 \u2013 2029 (2nd Year) | CGPA: 8.56  \n\n* **St. Antony's Girls Hr. Sec. School**  \n  HSC (12th) \u2014 96.33%  \n\n* **St. Antony's Girls Hr. Sec. School**  \n  SSLC (10th) \u2014 93.6%  \n\n---\n\n### **TECHNICAL SKILLS**\n\n* **Languages:** Python, C  \n* **Web:** HTML, CSS, React  \n* **Databases:** MongoDB  \n* **Tools:** Git, GitHub  \n\n---\n\n### **PROJECTS**\n\n* **SEMAS \u2013 Smart Exam Management and Allocation System**  \n  *github.com/ramyakn1907/Allocation_System*  \n  * Built a full-stack app to automate exam hall management, seating allocation, and attendance tracking.  \n  * Designed a smart seating algorithm preventing adjacent seating of same-department students to reduce malpractice.  \n  * Implemented role-based dashboards (Admin/Student/Invigilator) using React.js, TypeScript, Tailwind CSS, Spring Boot (Java), and MySQL.  \n  * Led a 4-member team (ROLESYNC) as Team Lead.  \n\n* **Mock Test System**  \n  *github.com/ramyakn1907/mock-test-application*  \n  * Full-stack platform for teachers to schedule tests and students to take them online with automatic scoring.  \n  * Built REST APIs using Python Flask with MySQL for class/student/test management.  \n  * Implemented class-based test distribution, auto-grading, and teacher feedback using React.js and Tailwind CSS.  \n\n* **To-Do List Application**  \n  *github.com/ramyakn1907/todo-list*  \n  * Interactive to-do list app using HTML, CSS, and JavaScript with add, complete, and delete functionality.  \n  * Implemented persistent task storage using browser localStorage.  \n\n---\n\n### **CERTIFICATIONS & ACHIEVEMENTS**\n\n* NPTEL \u2013 Joy of Using Python  \n* Skillathon \u2013 MongoDB Basics for Students  \n* Infosys Springboard \u2013 Generative AI for All  \n* Infosys Springboard \u2013 Intro to Microcontrollers & Coding  \n* Skillrack \u2013 Python  \n* Skillrack \u2013 C  \n* School First Rank Holder (Topper)  \n* Solved 700+ problems in Python & C on LeetCode/Skillrack  \n\n---\n\n### **ADDITIONAL STRENGTHS**\n\n* Strong public speaking skills  \n* Creative thinker with a collaborative, team-oriented approach",
+      "uploaded_at": {
+        "$date": "2026-07-27T15:50:39.200Z"
+      },
+      "analysis_details": {
+        "ats_score": 88,
+        "summary": "The resume of **RAMYA K N** demonstrates an outstanding Computer Science engineering foundation with robust hands-on full-stack development experience. Key highlights include multi-tier web applications (SEMAS Exam Allocation System, Mock Test Platform), strong algorithmic problem-solving with 700+ solved problems on LeetCode/SkillRack, and top-tier academic standing (8.56 CGPA).",
+        "strengths": [
+          "Strong technical stack proficiency across modern frameworks: Python, React.js, TypeScript, Spring Boot (Java), Flask, MongoDB, MySQL.",
+          "Demonstrated hands-on experience building full-stack applications (e.g., SEMAS Exam Management & Mock Test System).",
+          "Impressive algorithmic problem-solving track record (700+ problems solved on LeetCode/SkillRack).",
+          "Exceptional academic achievements (8.56 CGPA, 96.33% 12th Board Score, School First Rank Holder).",
+          "Active continuous learning verified by NPTEL, Skillathon MongoDB, and Infosys Springboard certifications."
+        ],
+        "weaknesses": [
+          "Project bullet points can be improved by adding quantitative performance metrics (e.g. '% reduction in seating allocation processing time').",
+          "Missing live deployed demo links (e.g., Vercel, Render, AWS) alongside GitHub repository URLs."
+        ],
+        "missing_skills": [
+          "Docker & Containerization",
+          "CI/CD Automation (GitHub Actions)",
+          "Automated Testing (Jest / PyTest)",
+          "Cloud Infrastructure (AWS / GCP)"
+        ],
+        "grammar_suggestions": [],
+        "improvement_tips": [
+          "Format project bullet points using the Action-Impact model: 'Built X using Y, achieving Z% optimization'.",
+          "Deploy live web demos for SEMAS and Mock Test System and embed active URLs near your GitHub repository links.",
+          "Add a dedicated 'Key Technical Competencies' section near the top of the document for instant ATS indexing."
+        ],
+        "missing_keywords": [
+          "Docker",
+          "CI/CD Pipelines",
+          "Unit Testing",
+          "Cloud Computing"
+        ],
+        "overall_rating": "Excellent (Strong Technical Candidate)",
+        "category_scores": {
+          "formatting_score": 88,
+          "keyword_match_score": 84,
+          "skills_score": 90,
+          "experience_score": 82,
+          "education_score": 94,
+          "project_score": 90
+        },
+        "categorized_skills": {
+          "programming_languages": [
+            "Python",
+            "C",
+            "TypeScript",
+            "JavaScript"
+          ],
+          "frontend": [
+            "React.js",
+            "Tailwind CSS",
+            "HTML5",
+            "CSS3"
+          ],
+          "backend": [
+            "Spring Boot (Java)",
+            "Flask"
+          ],
+          "database": [
+            "MongoDB",
+            "MySQL"
+          ],
+          "cloud": [
+            "Vercel / Render"
+          ],
+          "devops": [
+            "Git",
+            "GitHub"
+          ],
+          "ai": [
+            "Generative AI (Infosys Springboard)"
+          ],
+          "soft_skills": [
+            "Team Leadership (ROLESYNC)",
+            "Public Speaking",
+            "Problem Solving",
+            "Collaborative Communication"
+          ],
+          "missing_skills": [
+            "Docker & Containerization",
+            "CI/CD Automation (GitHub Actions)",
+            "Automated Testing (Jest / PyTest)",
+            "Cloud Infrastructure (AWS / GCP)"
+          ]
+        },
+        "keyword_analysis": {
+          "matched_keywords": [
+            "Python",
+            "React",
+            "MongoDB",
+            "MySQL",
+            "REST API",
+            "Full-Stack",
+            "Git",
+            "GitHub",
+            "Data Structures",
+            "Algorithms"
+          ],
+          "missing_keywords": [
+            "Docker",
+            "CI/CD Pipelines",
+            "Unit Testing",
+            "Cloud Computing"
+          ],
+          "recommended_keywords": [
+            "Docker",
+            "CI/CD Pipelines",
+            "Jest Unit Testing",
+            "Microservices",
+            "Cloud Deployment"
+          ]
+        },
+        "action_suggestions": [
+          {
+            "title": "Add Containerization & Cloud Deployment",
+            "priority": "High Priority",
+            "category": "Technical Skills",
+            "impact": "+12 ATS",
+            "description": "Add Docker containerization and cloud deployment experience (AWS/GCP/Vercel) to match modern backend infrastructure requirements."
+          },
+          {
+            "title": "Quantify Project Bullet Points",
+            "priority": "High Priority",
+            "category": "Impact",
+            "impact": "+10 ATS",
+            "description": "Rephrase project bullet points to highlight measurable metrics, e.g., 'Reduced seating allocation algorithm processing latency by 65%'."
+          },
+          {
+            "title": "Include Automated Unit Testing",
+            "priority": "Medium Priority",
+            "category": "Keywords",
+            "impact": "+8 ATS",
+            "description": "Include testing frameworks such as Jest or PyTest in your project descriptions to demonstrate software quality assurance."
+          },
+          {
+            "title": "Deploy Live Demos & Hyperlinks",
+            "priority": "Medium Priority",
+            "category": "Formatting",
+            "impact": "+5 ATS",
+            "description": "Hyperlink live working web applications (SEMAS & Mock Test System) directly next to your GitHub repository links."
+          }
+        ]
+      },
+      "_id": {
+        "$oid": "6a677e4f2f2311329183e195"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "6a678b0cfd3384960f6ca785"
+      },
+      "filename": "Ramya K N Resume.pdf",
+      "extracted_text": "RAMYA K N\nChennai, Tamil Nadu | 9363605986 | ramya.250342@ritchennai.edu.in\ngithub.com/ramyakn1907 | linkedin.com/in/ramya-k-n-04402537b\n\nOBJECTIVE\nMotivated Computer Science Engineering student with hands-on experience in full-stack web development, Python, and database management. Seeking internship/entry-level opportunities to apply programming and problem-solving skills to real-world projects.\n\nEDUCATION\nRajalakshmi Institute of Technology\nB.E. Computer Science and Engineering\n2025 \u2013 2029 (2nd Year) | CGPA: 8.56\n\nSt. Antony's Girls Hr. Sec. School\nHSC (12th) \u2013 96.33%\n\nSt. Antony's Girls Hr. Sec. School\nSSLC (10th) \u2013 93.6%\n\nTECHNICAL SKILLS\n\u2022 Languages: Python, C\n\u2022 Web: HTML, CSS, React\n\u2022 Databases: MongoDB\n\u2022 Tools: Git, GitHub\n\nPROJECTS\nSEMAS \u2013 Smart Exam Management and Allocation System\ngithub.com/ramyakn1907/Allocation_System\n\u2022 Built a full-stack app to automate exam hall management, seating allocation, and attendance tracking.\n\u2022 Designed a smart seating algorithm preventing adjacent seating of same-department students to reduce malpractice.\n\u2022 Implemented role-based dashboards (Admin/Student/Invigilator) using React.js, TypeScript, Tailwind CSS, Spring Boot (Java), and MySQL.\n\u2022 Led a 4-member team (ROLESYNC) as Team Lead.\n\nMock Test System\ngithub.com/ramyakn1907/mock-test-application\n\u2022 Full-stack platform for teachers to schedule tests and students to take them online with automatic scoring.\n\u2022 Built REST APIs using Python Flask with MySQL for class/student/test management.\n\u2022 Implemented class-based test distribution, auto-grading, and teacher feedback using React.js and Tailwind CSS.\n\nTo-Do List Application\ngithub.com/ramyakn1907/todo-list\n\u2022 Interactive to-do list app using HTML, CSS, and JavaScript with add, complete, and delete functionality.\n\u2022 Implemented persistent task storage using browser localStorage.\n\nCERTIFICATIONS & ACHIEVEMENTS\n\u2022 NPTEL \u2013 Joy of Using Python\n\u2022 Skillathon \u2013 MongoDB Basics for Students\n\u2022 Infosys Springboard \u2013 Generative AI for All\n\u2022 Infosys Springboard \u2013 Intro to Microcontrollers & Coding\n\u2022 Skillrack \u2013 Python\n\u2022 Skillrack \u2013 C\n\u2022 School First Rank Holder (Topper)\n\u2022 Solved 700+ problems in Python & C on LeetCode/Skillrack\n\nADDITIONAL STRENGTHS\n\u2022 Strong public speaking skills\n\u2022 Creative thinker with a collaborative, team-oriented approach",
+      "uploaded_at": {
+        "$date": "2026-07-27T17:16:33.267Z"
+      },
+      "analysis_details": {
+        "ats_score": 88,
+        "summary": "The resume of RAMYA K N demonstrates an outstanding Computer Science engineering foundation with robust hands-on full-stack development experience. Key highlights include multi-tier web applications (SEMAS Exam Allocation System, Mock Test Platform), strong algorithmic problem-solving with 700+ solved problems on LeetCode/SkillRack, and top-tier academic standing (8.56 CGPA).",
+        "strengths": [
+          "Strong technical stack proficiency across modern frameworks: Python, React.js, TypeScript, Spring Boot (Java), Flask, MongoDB, MySQL.",
+          "Demonstrated hands-on experience building full-stack applications (e.g., SEMAS Exam Management & Mock Test System).",
+          "Impressive algorithmic problem-solving track record (700+ problems solved on LeetCode/SkillRack).",
+          "Exceptional academic achievements (8.56 CGPA, 96.33% 12th Board Score, School First Rank Holder).",
+          "Active continuous learning verified by NPTEL, Skillathon MongoDB, and Infosys Springboard certifications."
+        ],
+        "weaknesses": [
+          "Project bullet points can be improved by adding quantitative performance metrics (e.g. '% reduction in seating allocation processing time').",
+          "Missing live deployed demo links (e.g., Vercel, Render, AWS) alongside GitHub repository URLs."
+        ],
+        "missing_skills": [
+          "Docker & Containerization",
+          "CI/CD Automation (GitHub Actions)",
+          "Automated Testing (Jest / PyTest)",
+          "Cloud Infrastructure (AWS / GCP)"
+        ],
+        "grammar_suggestions": [],
+        "improvement_tips": [
+          "Format project bullet points using the Action-Impact model: 'Built X using Y, achieving Z% optimization'.",
+          "Deploy live web demos for SEMAS and Mock Test System and embed active URLs near your GitHub repository links.",
+          "Add a dedicated 'Key Technical Competencies' section near the top of the document for instant ATS indexing."
+        ],
+        "missing_keywords": [
+          "Docker",
+          "CI/CD Pipelines",
+          "Unit Testing",
+          "Cloud Computing"
+        ],
+        "overall_rating": "Excellent (Strong Technical Candidate)",
+        "category_scores": {
+          "formatting_score": 88,
+          "keyword_match_score": 84,
+          "skills_score": 90,
+          "experience_score": 82,
+          "education_score": 94,
+          "project_score": 90
+        },
+        "categorized_skills": {
+          "programming_languages": [
+            "Python",
+            "C",
+            "TypeScript",
+            "JavaScript"
+          ],
+          "frontend": [
+            "React.js",
+            "Tailwind CSS",
+            "HTML5",
+            "CSS3"
+          ],
+          "backend": [
+            "Spring Boot (Java)",
+            "Flask"
+          ],
+          "database": [
+            "MongoDB",
+            "MySQL"
+          ],
+          "cloud": [
+            "Vercel / Render"
+          ],
+          "devops": [
+            "Git",
+            "GitHub"
+          ],
+          "ai": [
+            "Generative AI (Infosys Springboard)"
+          ],
+          "soft_skills": [
+            "Team Leadership (ROLESYNC)",
+            "Public Speaking",
+            "Problem Solving",
+            "Collaborative Communication"
+          ],
+          "missing_skills": [
+            "Docker & Containerization",
+            "CI/CD Automation (GitHub Actions)",
+            "Automated Testing (Jest / PyTest)",
+            "Cloud Infrastructure (AWS / GCP)"
+          ]
+        },
+        "keyword_analysis": {
+          "matched_keywords": [
+            "Python",
+            "React",
+            "MongoDB",
+            "MySQL",
+            "REST API",
+            "Full-Stack",
+            "Git",
+            "GitHub",
+            "Data Structures",
+            "Algorithms"
+          ],
+          "missing_keywords": [
+            "Docker",
+            "CI/CD Pipelines",
+            "Unit Testing",
+            "Cloud Computing"
+          ],
+          "recommended_keywords": [
+            "Docker",
+            "CI/CD Pipelines",
+            "Jest Unit Testing",
+            "Microservices",
+            "Cloud Deployment"
+          ]
+        },
+        "action_suggestions": [
+          {
+            "title": "Add Containerization & Cloud Deployment",
+            "priority": "High Priority",
+            "category": "Technical Skills",
+            "impact": "+12 ATS",
+            "description": "Add Docker containerization and cloud deployment experience (AWS/GCP/Vercel) to match modern backend infrastructure requirements."
+          },
+          {
+            "title": "Quantify Project Bullet Points",
+            "priority": "High Priority",
+            "category": "Impact",
+            "impact": "+10 ATS",
+            "description": "Rephrase project bullet points to highlight measurable metrics, e.g., 'Reduced seating allocation algorithm processing latency by 65%'."
+          },
+          {
+            "title": "Include Automated Unit Testing",
+            "priority": "Medium Priority",
+            "category": "Keywords",
+            "impact": "+8 ATS",
+            "description": "Include testing frameworks such as Jest or PyTest in your project descriptions to demonstrate software quality assurance."
+          },
+          {
+            "title": "Deploy Live Demos & Hyperlinks",
+            "priority": "Medium Priority",
+            "category": "Formatting",
+            "impact": "+5 ATS",
+            "description": "Hyperlink live working web applications (SEMAS & Mock Test System) directly next to your GitHub repository links."
+          }
+        ]
+      },
+      "_id": {
+        "$oid": "6a679271b68ca70cf362b44b"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "6a678b0cfd3384960f6ca785"
+      },
+      "filename": "Ramya K N Resume.pdf",
+      "extracted_text": "**RAMYA K N**\nChennai, Tamil Nadu | 9363605986 | ramya.250342@ritchennai.edu.in\ngithub.com/ramyakn1907 | linkedin.com/in/ramya-k-n-04402537b\n\n---\n\n### OBJECTIVE\nMotivated Computer Science Engineering student with hands-on experience in full-stack web development, Python, and database management. Seeking internship/entry-level opportunities to apply programming and problem-solving skills to real-world projects.\n\n---\n\n### EDUCATION\n\n**Rajalakshmi Institute of Technology**\nB.E. Computer Science and Engineering\n2025 \u2013 2029 (2nd Year) | CGPA: 8.56\n\n**St. Antony's Girls Hr. Sec. School**\nHSC (12th) \u2013 96.33%\n\n**St. Antony's Girls Hr. Sec. School**\nSSLC (10th) \u2013 93.6%\n\n---\n\n### TECHNICAL SKILLS\n* **Languages:** Python, C\n* **Web:** HTML, CSS, React\n* **Databases:** MongoDB\n* **Tools:** Git, GitHub\n\n---\n\n### PROJECTS\n\n**SEMAS \u2013 Smart Exam Management and Allocation System**\ngithub.com/ramyakn1907/Allocation_System\n* Built a full-stack app to automate exam hall management, seating allocation, and attendance tracking.\n* Designed a smart seating algorithm preventing adjacent seating of same-department students to reduce malpractice.\n* Implemented role-based dashboards (Admin/Student/Invigilator) using React.js, TypeScript, Tailwind CSS, Spring Boot (Java), and MySQL.\n* Led a 4-member team (ROLESYNC) as Team Lead.\n\n**Mock Test System**\ngithub.com/ramyakn1907/mock-test-application\n* Full-stack platform for teachers to schedule tests and students to take them online with automatic scoring.\n* Built REST APIs using Python Flask with MySQL for class/student/test management.\n* Implemented class-based test distribution, auto-grading, and teacher feedback using React.js and Tailwind CSS.\n\n**To-Do List Application**\ngithub.com/ramyakn1907/todo-list\n* Interactive to-do list app using HTML, CSS, and JavaScript with add, complete, and delete functionality.\n* Implemented persistent task storage using browser localStorage.\n\n---\n\n### CERTIFICATIONS & ACHIEVEMENTS\n* NPTEL \u2013 Joy of Using Python\n* Skillathon \u2013 MongoDB Basics for Students\n* Infosys Springboard \u2013 Generative AI for All\n* Infosys Springboard \u2013 Intro to Microcontrollers & Coding\n* Skillrack \u2013 Python\n* Skillrack \u2013 C\n* School First Rank Holder (Topper)\n* Solved 700+ problems in Python & C on LeetCode/Skillrack\n\n---\n\n### ADDITIONAL STRENGTHS\n* Strong public speaking skills\n* Creative thinker with a collaborative, team-oriented approach",
+      "uploaded_at": {
+        "$date": "2026-07-27T17:28:36.596Z"
+      },
+      "analysis_details": {
+        "ats_score": 88,
+        "summary": "The resume of **RAMYA K N** demonstrates an outstanding Computer Science engineering foundation with robust hands-on full-stack development experience. Key highlights include multi-tier web applications (SEMAS Exam Allocation System, Mock Test Platform), strong algorithmic problem-solving with 700+ solved problems on LeetCode/SkillRack, and top-tier academic standing (8.56 CGPA).",
+        "strengths": [
+          "Strong technical stack proficiency across modern frameworks: Python, React.js, TypeScript, Spring Boot (Java), Flask, MongoDB, MySQL.",
+          "Demonstrated hands-on experience building full-stack applications (e.g., SEMAS Exam Management & Mock Test System).",
+          "Impressive algorithmic problem-solving track record (700+ problems solved on LeetCode/SkillRack).",
+          "Exceptional academic achievements (8.56 CGPA, 96.33% 12th Board Score, School First Rank Holder).",
+          "Active continuous learning verified by NPTEL, Skillathon MongoDB, and Infosys Springboard certifications."
+        ],
+        "weaknesses": [
+          "Project bullet points can be improved by adding quantitative performance metrics (e.g. '% reduction in seating allocation processing time').",
+          "Missing live deployed demo links (e.g., Vercel, Render, AWS) alongside GitHub repository URLs."
+        ],
+        "missing_skills": [
+          "Docker & Containerization",
+          "CI/CD Automation (GitHub Actions)",
+          "Automated Testing (Jest / PyTest)",
+          "Cloud Infrastructure (AWS / GCP)"
+        ],
+        "grammar_suggestions": [],
+        "improvement_tips": [
+          "Format project bullet points using the Action-Impact model: 'Built X using Y, achieving Z% optimization'.",
+          "Deploy live web demos for SEMAS and Mock Test System and embed active URLs near your GitHub repository links.",
+          "Add a dedicated 'Key Technical Competencies' section near the top of the document for instant ATS indexing."
+        ],
+        "missing_keywords": [
+          "Docker",
+          "CI/CD Pipelines",
+          "Unit Testing",
+          "Cloud Computing"
+        ],
+        "overall_rating": "Excellent (Strong Technical Candidate)",
+        "category_scores": {
+          "formatting_score": 88,
+          "keyword_match_score": 84,
+          "skills_score": 90,
+          "experience_score": 82,
+          "education_score": 94,
+          "project_score": 90
+        },
+        "categorized_skills": {
+          "programming_languages": [
+            "Python",
+            "C",
+            "TypeScript",
+            "JavaScript"
+          ],
+          "frontend": [
+            "React.js",
+            "Tailwind CSS",
+            "HTML5",
+            "CSS3"
+          ],
+          "backend": [
+            "Spring Boot (Java)",
+            "Flask"
+          ],
+          "database": [
+            "MongoDB",
+            "MySQL"
+          ],
+          "cloud": [
+            "Vercel / Render"
+          ],
+          "devops": [
+            "Git",
+            "GitHub"
+          ],
+          "ai": [
+            "Generative AI (Infosys Springboard)"
+          ],
+          "soft_skills": [
+            "Team Leadership (ROLESYNC)",
+            "Public Speaking",
+            "Problem Solving",
+            "Collaborative Communication"
+          ],
+          "missing_skills": [
+            "Docker & Containerization",
+            "CI/CD Automation (GitHub Actions)",
+            "Automated Testing (Jest / PyTest)",
+            "Cloud Infrastructure (AWS / GCP)"
+          ]
+        },
+        "keyword_analysis": {
+          "matched_keywords": [
+            "Python",
+            "React",
+            "MongoDB",
+            "MySQL",
+            "REST API",
+            "Full-Stack",
+            "Git",
+            "GitHub",
+            "Data Structures",
+            "Algorithms"
+          ],
+          "missing_keywords": [
+            "Docker",
+            "CI/CD Pipelines",
+            "Unit Testing",
+            "Cloud Computing"
+          ],
+          "recommended_keywords": [
+            "Docker",
+            "CI/CD Pipelines",
+            "Jest Unit Testing",
+            "Microservices",
+            "Cloud Deployment"
+          ]
+        },
+        "action_suggestions": [
+          {
+            "title": "Add Containerization & Cloud Deployment",
+            "priority": "High Priority",
+            "category": "Technical Skills",
+            "impact": "+12 ATS",
+            "description": "Add Docker containerization and cloud deployment experience (AWS/GCP/Vercel) to match modern backend infrastructure requirements."
+          },
+          {
+            "title": "Quantify Project Bullet Points",
+            "priority": "High Priority",
+            "category": "Impact",
+            "impact": "+10 ATS",
+            "description": "Rephrase project bullet points to highlight measurable metrics, e.g., 'Reduced seating allocation algorithm processing latency by 65%'."
+          },
+          {
+            "title": "Include Automated Unit Testing",
+            "priority": "Medium Priority",
+            "category": "Keywords",
+            "impact": "+8 ATS",
+            "description": "Include testing frameworks such as Jest or PyTest in your project descriptions to demonstrate software quality assurance."
+          },
+          {
+            "title": "Deploy Live Demos & Hyperlinks",
+            "priority": "Medium Priority",
+            "category": "Formatting",
+            "impact": "+5 ATS",
+            "description": "Hyperlink live working web applications (SEMAS & Mock Test System) directly next to your GitHub repository links."
+          }
+        ]
+      },
+      "_id": {
+        "$oid": "6a679544a7be095d9dd2917d"
+      }
+    }
+  ],
+  "user_ai_settings": [
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "provider": "google-gemini",
+      "encrypted_api_key": "gAAAAABqaFPYVI3QHCFl9nvVNM4AzKif3ZbsuN7y3J8re_juQzsif00LgvmMB9P_Uwk-RznLi5VY8jaleg40voL1Z0C5NIYtVcOnbxExM4Tr6XweZcPkWn0AF92tbY5Q_OpoHxXATcZCwt4MzfJ5dUy-N4Am9hk3ig==",
+      "preferred_mode": "shared",
+      "selected_model": "gemini-3.5-flash",
+      "available_models": [
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
+      ],
+      "status": "online",
+      "latency": 2379,
+      "last_verified": {
+        "$date": "2026-07-28T07:01:44.346Z"
+      },
+      "created_at": {
+        "$date": "2026-07-27T18:07:13.190Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:04:26.169Z"
+      },
+      "active": true,
+      "_id": {
+        "$oid": "6a679e519be832ad244c1c4d"
+      }
+    },
+    {
+      "user_id": "6a68506c7dc7e6a4fd33705e",
+      "provider": "google-gemini",
+      "encrypted_api_key": null,
+      "preferred_mode": "shared",
+      "selected_model": "gemini-2.5-flash",
+      "available_models": [
+        "gemini-2.5-flash",
+        "gemini-2.0-flash",
+        "gemini-2.0-flash-lite"
+      ],
+      "status": "online",
+      "latency": 0,
+      "last_verified": null,
+      "created_at": {
+        "$date": "2026-07-28T06:47:20.652Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T06:47:20.652Z"
+      },
+      "active": true,
+      "_id": {
+        "$oid": "6a6850787dc7e6a4fd33705f"
+      }
+    },
+    {
+      "user_id": "6a68512a9bc71e74f661b92a",
+      "provider": "google-gemini",
+      "encrypted_api_key": null,
+      "preferred_mode": "shared",
+      "selected_model": "gemini-3.5-flash",
+      "available_models": [
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
+      ],
+      "status": "online",
+      "latency": 0,
+      "last_verified": null,
+      "created_at": {
+        "$date": "2026-07-28T06:50:30.828Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T06:50:30.828Z"
+      },
+      "active": true,
+      "_id": {
+        "$oid": "6a6851369bc71e74f661b92b"
+      }
+    },
+    {
+      "user_id": "6a6853b981a64bb6836f7383",
+      "provider": "google-gemini",
+      "encrypted_api_key": null,
+      "preferred_mode": "shared",
+      "selected_model": "gemini-3.5-flash",
+      "available_models": [
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
+      ],
+      "status": "online",
+      "latency": 0,
+      "last_verified": null,
+      "created_at": {
+        "$date": "2026-07-28T07:01:28.682Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:01:28.682Z"
+      },
+      "active": true,
+      "_id": {
+        "$oid": "6a6853c881a64bb6836f7384"
+      }
+    },
+    {
+      "user_id": "6a685511a285c930c4d3dc58",
+      "provider": "google-gemini",
+      "encrypted_api_key": null,
+      "preferred_mode": "shared",
+      "selected_model": "gemini-3.5-flash",
+      "available_models": [
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
+      ],
+      "status": "online",
+      "latency": 0,
+      "last_verified": null,
+      "created_at": {
+        "$date": "2026-07-28T07:07:08.985Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:07:08.985Z"
+      },
+      "active": true,
+      "_id": {
+        "$oid": "6a68551ca285c930c4d3dc59"
+      }
+    },
+    {
+      "user_id": "6a6856ad87bf91bcd3511af9",
+      "provider": "google-gemini",
+      "encrypted_api_key": null,
+      "preferred_mode": "shared",
+      "selected_model": "gemini-3.5-flash",
+      "available_models": [
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
+      ],
+      "status": "online",
+      "latency": 0,
+      "last_verified": null,
+      "created_at": {
+        "$date": "2026-07-28T07:14:00.664Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:14:00.664Z"
+      },
+      "active": true,
+      "_id": {
+        "$oid": "6a6856b887bf91bcd3511afa"
+      }
+    },
+    {
+      "user_id": "6a685870c66804af879a69a6",
+      "provider": "google-gemini",
+      "encrypted_api_key": null,
+      "preferred_mode": "shared",
+      "selected_model": "gemini-3.5-flash",
+      "available_models": [
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
+      ],
+      "status": "online",
+      "latency": 0,
+      "last_verified": null,
+      "created_at": {
+        "$date": "2026-07-28T07:21:31.907Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:21:31.907Z"
+      },
+      "active": true,
+      "_id": {
+        "$oid": "6a68587bc66804af879a69a7"
+      }
+    }
+  ],
+  "ai_usage_stats": [
+    {
+      "user_id": "6a68506c7dc7e6a4fd33705e",
+      "mode": "shared",
+      "model": "gemini-2.5-flash",
+      "latency_ms": 0,
+      "success": false,
+      "error_msg": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 38.011092114s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}",
+      "created_at": {
+        "$date": "2026-07-28T06:47:22.724Z"
+      },
+      "_id": {
+        "$oid": "6a68507a7dc7e6a4fd337060"
+      }
+    },
+    {
+      "user_id": "6a68506c7dc7e6a4fd33705e",
+      "mode": "shared",
+      "model": "gemini-2.5-flash",
+      "latency_ms": 0,
+      "success": false,
+      "error_msg": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 36.059118824s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}",
+      "created_at": {
+        "$date": "2026-07-28T06:47:24.802Z"
+      },
+      "_id": {
+        "$oid": "6a68507c7dc7e6a4fd337062"
+      }
+    },
+    {
+      "user_id": "6a68512a9bc71e74f661b92a",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 3766,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T06:50:34.600Z"
+      },
+      "_id": {
+        "$oid": "6a68513a9bc71e74f661b92c"
+      }
+    },
+    {
+      "user_id": "6a68512a9bc71e74f661b92a",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 9661,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T06:50:44.269Z"
+      },
+      "_id": {
+        "$oid": "6a6851449bc71e74f661b92d"
+      }
+    },
+    {
+      "user_id": "6a68512a9bc71e74f661b92a",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 10989,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T06:51:00.503Z"
+      },
+      "_id": {
+        "$oid": "6a6851549bc71e74f661b92f"
+      }
+    },
+    {
+      "user_id": "6a6853b981a64bb6836f7383",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 3054,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:01:31.741Z"
+      },
+      "_id": {
+        "$oid": "6a6853cb81a64bb6836f7385"
+      }
+    },
+    {
+      "user_id": "6a6853b981a64bb6836f7383",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 6789,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:01:38.545Z"
+      },
+      "_id": {
+        "$oid": "6a6853d281a64bb6836f7386"
+      }
+    },
+    {
+      "user_id": "6a685511a285c930c4d3dc58",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 3498,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:07:12.486Z"
+      },
+      "_id": {
+        "$oid": "6a685520a285c930c4d3dc5a"
+      }
+    },
+    {
+      "user_id": "6a685511a285c930c4d3dc58",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 6064,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:07:18.551Z"
+      },
+      "_id": {
+        "$oid": "6a685526a285c930c4d3dc5b"
+      }
+    },
+    {
+      "user_id": "6a685511a285c930c4d3dc58",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 10679,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:07:34.588Z"
+      },
+      "_id": {
+        "$oid": "6a685536a285c930c4d3dc5d"
+      }
+    },
+    {
+      "user_id": "6a6856ad87bf91bcd3511af9",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 3199,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:14:03.871Z"
+      },
+      "_id": {
+        "$oid": "6a6856bb87bf91bcd3511afb"
+      }
+    },
+    {
+      "user_id": "6a6856ad87bf91bcd3511af9",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 8778,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:14:12.661Z"
+      },
+      "_id": {
+        "$oid": "6a6856c487bf91bcd3511afc"
+      }
+    },
+    {
+      "user_id": "6a6856ad87bf91bcd3511af9",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 9181,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:14:26.433Z"
+      },
+      "_id": {
+        "$oid": "6a6856d287bf91bcd3511afe"
+      }
+    },
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 6334,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:16:02.119Z"
+      },
+      "_id": {
+        "$oid": "6a685732a025e9c1b104793c"
+      }
+    },
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 3118,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:18:16.369Z"
+      },
+      "_id": {
+        "$oid": "6a6857b8a025e9c1b104793e"
+      }
+    },
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 5032,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:18:51.722Z"
+      },
+      "_id": {
+        "$oid": "6a6857dba025e9c1b104793f"
+      }
+    },
+    {
+      "user_id": "6a685870c66804af879a69a6",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 3040,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:21:34.955Z"
+      },
+      "_id": {
+        "$oid": "6a68587ec66804af879a69a8"
+      }
+    },
+    {
+      "user_id": "6a685870c66804af879a69a6",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 8021,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:21:42.976Z"
+      },
+      "_id": {
+        "$oid": "6a685886c66804af879a69a9"
+      }
+    },
+    {
+      "user_id": "6a685870c66804af879a69a6",
+      "mode": "shared",
+      "model": "gemini-3.5-flash",
+      "latency_ms": 9122,
+      "success": true,
+      "error_msg": null,
+      "created_at": {
+        "$date": "2026-07-28T07:21:56.938Z"
+      },
+      "_id": {
+        "$oid": "6a685894c66804af879a69ab"
+      }
+    }
+  ],
+  "user_ai_notifications": [
+    {
+      "user_id": "6a68506c7dc7e6a4fd33705e",
+      "message": "The shared AI quota has been exhausted. Connect your own Gemini API to continue using AI instantly.",
+      "type": "warning",
+      "read": false,
+      "created_at": {
+        "$date": "2026-07-28T06:47:22.735Z"
+      },
+      "_id": {
+        "$oid": "6a68507a7dc7e6a4fd337061"
+      }
+    },
+    {
+      "user_id": "6a68506c7dc7e6a4fd33705e",
+      "message": "The shared AI quota has been exhausted. Connect your own Gemini API to continue using AI instantly.",
+      "type": "warning",
+      "read": false,
+      "created_at": {
+        "$date": "2026-07-28T06:47:24.802Z"
+      },
+      "_id": {
+        "$oid": "6a68507c7dc7e6a4fd337063"
+      }
+    }
+  ],
+  "conversations": [
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "title": "How can I improve my ATS score?",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How can I improve my ATS score?",
+          "timestamp": "2026-07-28T07:02:08.835084"
+        },
+        {
+          "role": "assistant",
+          "content": {
+            "overview": "Your current resume achieves an 88% ATS Index. To reach the elite 95%+ tier for top software engineering roles, we should address key infrastructure keywords and quantify project outcomes.",
+            "current_assessment": {
+              "ats_score": 88,
+              "strength_level": "High Competency",
+              "interview_readiness": "85% Ready",
+              "overall_rating": "Excellent Candidate"
+            },
+            "strengths": [
+              "Academic excellence with 8.56 CGPA and School First Rank",
+              "Full-stack team lead experience on SEMAS (React, Spring Boot, MySQL)",
+              "Algorithmic problem-solving track record (700+ problems on LeetCode/SkillRack)",
+              "Multi-tier project development (Mock Test Platform with Python Flask & MySQL)",
+              "Active certifications in Python, MongoDB, and Generative AI"
+            ],
+            "high_priority_improvements": [
+              {
+                "title": "Add Containerization & Cloud Keywords",
+                "explanation": "Modern technical ATS filters rank candidates higher when Docker, Kubernetes, or AWS cloud deployment skills are explicitly listed."
+              },
+              {
+                "title": "Quantify Project Achievements",
+                "explanation": "Include measurable metrics in project bullet points (e.g. 'Optimized seating allocation algorithm, reducing latency by 60%')."
+              },
+              {
+                "title": "Incorporate Automated Unit Testing",
+                "explanation": "List Jest or PyTest under a dedicated testing subsection to verify software quality standards."
+              }
+            ],
+            "recommended_actions": [
+              {
+                "label": "Rewrite Resume Summary",
+                "action": "rewrite_summary"
+              },
+              {
+                "label": "Improve Projects",
+                "action": "improve_projects"
+              },
+              {
+                "label": "Generate Cover Letter",
+                "action": "generate_cover_letter"
+              },
+              {
+                "label": "30-Day Roadmap",
+                "action": "career_roadmap"
+              }
+            ],
+            "estimated_improvement": {
+              "current_ats": 88,
+              "potential_ats": 96,
+              "confidence": "95%",
+              "improvement_label": "+8 ATS Points Boost"
+            },
+            "example_rewrite": "\u2022 Architected SEMAS full-stack exam management platform with React.js, Spring Boot, and Docker, reducing hall allocation latency by 60% for 500+ students.",
+            "coach_tip": "Recruiters spend an average of 6 seconds on initial scans. Placing your top technical stack and metrics in the top 1/3 of your document doubles interview callbacks."
+          },
+          "timestamp": "2026-07-28T07:02:08.835084"
+        },
+        {
+          "role": "user",
+          "content": "Mock Interview",
+          "timestamp": "2026-07-28T07:02:40.019372"
+        },
+        {
+          "role": "assistant",
+          "content": {
+            "overview": "Welcome Ramya! I've thoroughly reviewed your portfolio context (88% ATS Rating). Here is your personalized action analysis.",
+            "current_assessment": {
+              "ats_score": 88,
+              "strength_level": "Solid Foundation",
+              "interview_readiness": "85% Ready",
+              "overall_rating": "Excellent Candidate"
+            },
+            "strengths": [
+              "Academic excellence with 8.56 CGPA and School First Rank",
+              "Full-stack team lead experience on SEMAS (React, Spring Boot, MySQL)",
+              "Algorithmic problem-solving track record (700+ problems on LeetCode/SkillRack)",
+              "Multi-tier project development (Mock Test Platform with Python Flask & MySQL)",
+              "Active certifications in Python, MongoDB, and Generative AI"
+            ],
+            "high_priority_improvements": [
+              {
+                "title": "Add Docker & CI/CD Infrastructure Skills",
+                "explanation": "Adding containerization and automated testing (Jest/PyTest) will bridge the final keyword gap to reach 95%+ ATS."
+              },
+              {
+                "title": "Quantify Project Metric Outcomes",
+                "explanation": "Add numerical impact statements to your SEMAS and Mock Test System project descriptions."
+              }
+            ],
+            "recommended_actions": [
+              {
+                "label": "Improve ATS Score",
+                "action": "improve_ats"
+              },
+              {
+                "label": "Generate Cover Letter",
+                "action": "generate_cover_letter"
+              },
+              {
+                "label": "Mock Interview Prep",
+                "action": "mock_interview"
+              },
+              {
+                "label": "30-Day Roadmap",
+                "action": "career_roadmap"
+              }
+            ],
+            "estimated_improvement": {
+              "current_ats": 88,
+              "potential_ats": 96,
+              "confidence": "95%",
+              "improvement_label": "+8 ATS Points"
+            },
+            "example_rewrite": "\u2022 Built SEMAS full-stack exam management system using React.js, Spring Boot, and Docker, reducing hall allocation processing time by 60% for 500+ students.",
+            "coach_tip": "Focus on high-impact project bullet points using the STAR method (Situation, Task, Action, Result)."
+          },
+          "timestamp": "2026-07-28T07:02:40.019372"
+        },
+        {
+          "role": "user",
+          "content": "i want interview based on my resume",
+          "timestamp": "2026-07-28T07:03:14.302793"
+        },
+        {
+          "role": "assistant",
+          "content": {
+            "overview": "Welcome Ramya! I've thoroughly reviewed your portfolio context (88% ATS Rating). Here is your personalized action analysis.",
+            "current_assessment": {
+              "ats_score": 88,
+              "strength_level": "Solid Foundation",
+              "interview_readiness": "85% Ready",
+              "overall_rating": "Excellent Candidate"
+            },
+            "strengths": [
+              "Academic excellence with 8.56 CGPA and School First Rank",
+              "Full-stack team lead experience on SEMAS (React, Spring Boot, MySQL)",
+              "Algorithmic problem-solving track record (700+ problems on LeetCode/SkillRack)",
+              "Multi-tier project development (Mock Test Platform with Python Flask & MySQL)",
+              "Active certifications in Python, MongoDB, and Generative AI"
+            ],
+            "high_priority_improvements": [
+              {
+                "title": "Add Docker & CI/CD Infrastructure Skills",
+                "explanation": "Adding containerization and automated testing (Jest/PyTest) will bridge the final keyword gap to reach 95%+ ATS."
+              },
+              {
+                "title": "Quantify Project Metric Outcomes",
+                "explanation": "Add numerical impact statements to your SEMAS and Mock Test System project descriptions."
+              }
+            ],
+            "recommended_actions": [
+              {
+                "label": "Improve ATS Score",
+                "action": "improve_ats"
+              },
+              {
+                "label": "Generate Cover Letter",
+                "action": "generate_cover_letter"
+              },
+              {
+                "label": "Mock Interview Prep",
+                "action": "mock_interview"
+              },
+              {
+                "label": "30-Day Roadmap",
+                "action": "career_roadmap"
+              }
+            ],
+            "estimated_improvement": {
+              "current_ats": 88,
+              "potential_ats": 96,
+              "confidence": "95%",
+              "improvement_label": "+8 ATS Points"
+            },
+            "example_rewrite": "\u2022 Built SEMAS full-stack exam management system using React.js, Spring Boot, and Docker, reducing hall allocation processing time by 60% for 500+ students.",
+            "coach_tip": "Focus on high-impact project bullet points using the STAR method (Situation, Task, Action, Result)."
+          },
+          "timestamp": "2026-07-28T07:03:14.303887"
+        },
+        {
+          "role": "user",
+          "content": "i want interview question",
+          "timestamp": "2026-07-28T07:03:57.293429"
+        },
+        {
+          "role": "assistant",
+          "content": {
+            "overview": "Welcome Ramya! I've thoroughly reviewed your portfolio context (88% ATS Rating). Here is your personalized action analysis.",
+            "current_assessment": {
+              "ats_score": 88,
+              "strength_level": "Solid Foundation",
+              "interview_readiness": "85% Ready",
+              "overall_rating": "Excellent Candidate"
+            },
+            "strengths": [
+              "Academic excellence with 8.56 CGPA and School First Rank",
+              "Full-stack team lead experience on SEMAS (React, Spring Boot, MySQL)",
+              "Algorithmic problem-solving track record (700+ problems on LeetCode/SkillRack)",
+              "Multi-tier project development (Mock Test Platform with Python Flask & MySQL)",
+              "Active certifications in Python, MongoDB, and Generative AI"
+            ],
+            "high_priority_improvements": [
+              {
+                "title": "Add Docker & CI/CD Infrastructure Skills",
+                "explanation": "Adding containerization and automated testing (Jest/PyTest) will bridge the final keyword gap to reach 95%+ ATS."
+              },
+              {
+                "title": "Quantify Project Metric Outcomes",
+                "explanation": "Add numerical impact statements to your SEMAS and Mock Test System project descriptions."
+              }
+            ],
+            "recommended_actions": [
+              {
+                "label": "Improve ATS Score",
+                "action": "improve_ats"
+              },
+              {
+                "label": "Generate Cover Letter",
+                "action": "generate_cover_letter"
+              },
+              {
+                "label": "Mock Interview Prep",
+                "action": "mock_interview"
+              },
+              {
+                "label": "30-Day Roadmap",
+                "action": "career_roadmap"
+              }
+            ],
+            "estimated_improvement": {
+              "current_ats": 88,
+              "potential_ats": 96,
+              "confidence": "95%",
+              "improvement_label": "+8 ATS Points"
+            },
+            "example_rewrite": "\u2022 Built SEMAS full-stack exam management system using React.js, Spring Boot, and Docker, reducing hall allocation processing time by 60% for 500+ students.",
+            "coach_tip": "Focus on high-impact project bullet points using the STAR method (Situation, Task, Action, Result)."
+          },
+          "timestamp": "2026-07-28T07:03:57.293429"
+        }
+      ],
+      "created_at": {
+        "$date": "2026-07-28T07:02:08.819Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:03:57.293Z"
+      },
+      "_id": {
+        "$oid": "6a6853f0b0928a95024b3593"
+      }
+    },
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "title": "i want interview question",
+      "messages": [
+        {
+          "role": "user",
+          "content": "i want interview question",
+          "timestamp": "2026-07-28T07:04:45.892716"
+        },
+        {
+          "role": "assistant",
+          "content": {
+            "overview": "Welcome Ramya! I've thoroughly reviewed your portfolio context (88% ATS Rating). Here is your personalized action analysis.",
+            "current_assessment": {
+              "ats_score": 88,
+              "strength_level": "Solid Foundation",
+              "interview_readiness": "85% Ready",
+              "overall_rating": "Excellent Candidate"
+            },
+            "strengths": [
+              "Academic excellence with 8.56 CGPA and School First Rank",
+              "Full-stack team lead experience on SEMAS (React, Spring Boot, MySQL)",
+              "Algorithmic problem-solving track record (700+ problems on LeetCode/SkillRack)",
+              "Multi-tier project development (Mock Test Platform with Python Flask & MySQL)",
+              "Active certifications in Python, MongoDB, and Generative AI"
+            ],
+            "high_priority_improvements": [
+              {
+                "title": "Add Docker & CI/CD Infrastructure Skills",
+                "explanation": "Adding containerization and automated testing (Jest/PyTest) will bridge the final keyword gap to reach 95%+ ATS."
+              },
+              {
+                "title": "Quantify Project Metric Outcomes",
+                "explanation": "Add numerical impact statements to your SEMAS and Mock Test System project descriptions."
+              }
+            ],
+            "recommended_actions": [
+              {
+                "label": "Improve ATS Score",
+                "action": "improve_ats"
+              },
+              {
+                "label": "Generate Cover Letter",
+                "action": "generate_cover_letter"
+              },
+              {
+                "label": "Mock Interview Prep",
+                "action": "mock_interview"
+              },
+              {
+                "label": "30-Day Roadmap",
+                "action": "career_roadmap"
+              }
+            ],
+            "estimated_improvement": {
+              "current_ats": 88,
+              "potential_ats": 96,
+              "confidence": "95%",
+              "improvement_label": "+8 ATS Points"
+            },
+            "example_rewrite": "\u2022 Built SEMAS full-stack exam management system using React.js, Spring Boot, and Docker, reducing hall allocation processing time by 60% for 500+ students.",
+            "coach_tip": "Focus on high-impact project bullet points using the STAR method (Situation, Task, Action, Result)."
+          },
+          "timestamp": "2026-07-28T07:04:45.892716"
+        }
+      ],
+      "created_at": {
+        "$date": "2026-07-28T07:04:45.884Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:04:45.892Z"
+      },
+      "_id": {
+        "$oid": "6a68548db0928a95024b3594"
+      }
+    },
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "title": "i want some interview question",
+      "messages": [
+        {
+          "role": "user",
+          "content": "i want some interview question",
+          "timestamp": "2026-07-28T07:15:55.785012"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi Ramya! It\u2019s wonderful to connect with you. I would love to help you prepare and build your confidence for your upcoming interviews! \n\nTo get us started, here are some of the most common and impactful interview questions that employers ask across almost every industry. Practicing these will give you a fantastic foundation:\n\n*   **\"Tell me about yourself.\"** \n    *   *Coach Tip:* Keep this to 2 minutes. Focus on a brief overview of your professional journey, your key strengths, and why you are excited about the next step in your career.\n*   **\"Describe a time when you faced a difficult challenge at work. How did you handle it?\"**\n    *   *Coach Tip:* Use the **STAR method** (Situation, Task, Action, Result) to structure your answer clearly and keep it focused on the positive outcome.\n*   **\"Why are you interested in this role and our company?\"**\n    *   *Coach Tip:* Show that you've done your research! Mention a recent project, company value, or product of theirs that genuinely excites you.\n*   **\"What is your greatest professional achievement?\"**\n    *   *Coach Tip:* Share a specific story where you went above and beyond, and try to highlight quantifiable results (e.g., saved time, increased revenue, or improved a process) if possible.\n\n**To help me tailor this practice specifically for you, could you share:**\n1. What is the specific job title or industry you are targeting?\n2. Would you like to paste your resume or tell me a bit about your experience?\n\nOnce you share that, I can give you highly customized behavioral and technical questions tailored exactly to your dream role. You've got this, Ramya\u2014I'm here to support you every step of the way!",
+          "timestamp": "2026-07-28T07:16:02.133068"
+        }
+      ],
+      "created_at": {
+        "$date": "2026-07-28T07:15:55.770Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:16:02.133Z"
+      },
+      "_id": {
+        "$oid": "6a68572ba025e9c1b104793b"
+      }
+    },
+    {
+      "user_id": "6a678b0cfd3384960f6ca785",
+      "title": "hii",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hii",
+          "timestamp": "2026-07-28T07:18:13.250385"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi Ramya! It's wonderful to connect with you. \n\nAs your AI Career Coach, I am here to help you navigate your professional journey\u2014whether that means polishing your resume, preparing for an upcoming interview, exploring new career paths, or strategizing your next big move. \n\nTo get us started, tell me a little bit about what you're working on. You can share your current resume, tell me about your background, or let me know what career goals you are aiming for. \n\nHow can I help you succeed today?",
+          "timestamp": "2026-07-28T07:18:16.369282"
+        },
+        {
+          "role": "user",
+          "content": "for my resume which company is a best option",
+          "timestamp": "2026-07-28T07:18:46.689591"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi Ramya! It's great to connect with you. I would love to help you identify the best companies that align with your resume and career goals. \n\nTo give you the most accurate and personalized recommendations, I'll need a little more information about your background. Could you share a few details with me? \n\n*   **What is your main field or industry?** (e.g., Software Engineering, Marketing, Finance, Healthcare, Customer Service, etc.)\n*   **What are some of your top skills?** \n*   **What job titles or roles are you targeting?**\n*   **How many years of experience do you have?** (e.g., entry-level, mid-level, or senior)\n\nAlternatively, feel free to paste a summary of your resume, your key skills, or your past job titles right here! Once I have a better picture of your unique background, we can brainstorm a targeted list of ideal companies for you. \n\nLooking forward to helping you take this next step in your career!",
+          "timestamp": "2026-07-28T07:18:51.738995"
+        }
+      ],
+      "created_at": {
+        "$date": "2026-07-28T07:18:13.235Z"
+      },
+      "updated_at": {
+        "$date": "2026-07-28T07:18:51.738Z"
+      },
+      "_id": {
+        "$oid": "6a6857b5a025e9c1b104793d"
+      }
+    }
+  ]
+}
