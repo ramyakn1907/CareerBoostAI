@@ -28,23 +28,20 @@ def home():
         "docs": "/docs"
     }
 
-from app.config.database import db
+from app.config.database import db, client
 
 @app.get("/test-db")
 def test_db():
     try:
         client.admin.command("ping")
 
-        collections = db.list_collection_names()
-
-        users = list(db["users"].find({}, {"hashed_password": 0}))
+        users = list(db["users"].find())
 
         return {
             "status": "success",
-            "database": db.name,
-            "collections": collections,
+            "database": "careerboost_ai",
             "total_users": len(users),
-            "users": users
+            "emails": [u.get("email") for u in users]
         }
 
     except Exception as e:
