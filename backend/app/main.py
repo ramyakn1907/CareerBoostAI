@@ -28,16 +28,27 @@ def home():
         "docs": "/docs"
     }
 
+from app.config.database import db
+
 @app.get("/test-db")
 def test_db():
     try:
         client.admin.command("ping")
+
+        collections = db.list_collection_names()
+
+        users = list(db["users"].find({}, {"hashed_password": 0}))
+
         return {
             "status": "success",
-            "message": "MongoDB Connected Successfully ✅"
+            "database": db.name,
+            "collections": collections,
+            "total_users": len(users),
+            "users": users
         }
+
     except Exception as e:
         return {
             "status": "failed",
             "error": str(e)
-        }
+        }

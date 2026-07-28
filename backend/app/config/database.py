@@ -116,7 +116,7 @@ def init_db():
         client.admin.command("ping")
         db = client[DATABASE_NAME]
         print("=" * 50)
-        print("MongoDB Connected Successfully")
+        raise Exception("TEST - init_db reached")
         print("Database:", DATABASE_NAME)
         print("Mongo URL:", MONGODB_URL)
         print("=" * 50)
