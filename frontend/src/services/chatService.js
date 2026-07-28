@@ -1,43 +1,37 @@
-import axios from 'axios';
-
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
-
-const getAuthHeader = () => {
-  const token = localStorage.getItem('token');
-  return {
-    headers: {
-      Authorization: `Bearer ${token}`
-    }
-  };
-};
+import API from "./api";
 
 export const sendChatMessage = async (message, conversationId = null) => {
   try {
-    const response = await axios.post(
-      `${API_BASE_URL}/chat/messages`,
-      { message, conversation_id: conversationId },
-      getAuthHeader()
-    );
+    const response = await API.post("/chat/messages", {
+      message,
+      conversation_id: conversationId,
+    });
     return response.data;
   } catch (error) {
-    throw error.response?.data || { detail: 'Failed to send message to AI Career Coach.' };
+    throw error.response?.data || {
+      detail: "Failed to send message to AI Career Coach.",
+    };
   }
 };
 
 export const getConversations = async () => {
   try {
-    const response = await axios.get(`${API_BASE_URL}/chat/conversations`, getAuthHeader());
+    const response = await API.get("/chat/conversations");
     return response.data;
   } catch (error) {
-    throw error.response?.data || { detail: 'Failed to fetch conversations.' };
+    throw error.response?.data || {
+      detail: "Failed to fetch conversations.",
+    };
   }
 };
 
 export const deleteConversation = async (conversationId) => {
   try {
-    const response = await axios.delete(`${API_BASE_URL}/chat/conversations/${conversationId}`, getAuthHeader());
+    const response = await API.delete(`/chat/conversations/${conversationId}`);
     return response.data;
   } catch (error) {
-    throw error.response?.data || { detail: 'Failed to delete conversation.' };
+    throw error.response?.data || {
+      detail: "Failed to delete conversation.",
+    };
   }
 };
