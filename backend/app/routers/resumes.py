@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, BackgroundTasks, status
+import os
 from typing import List
 from app.services.auth_services import get_current_user, update_user_profile_service
 from app.services.resume_service import extract_text_from_pdf, extract_text_from_docx, extract_candidate_profile_from_text
@@ -94,7 +95,8 @@ async def analyze_resume(
         user_email = current_user.get("email")
         username = current_user.get("username", "Candidate")
         if user_email:
-            report_url = f"http://localhost:5173/report/{saved_doc['_id']}"
+            frontend_url = os.getenv("FRONTEND_URL", "https://careerboostai.vercel.app")
+            report_url = f"{frontend_url}/report/{saved_doc['_id']}"
             
             # Send Analysis Ready Email
             ready_html = template_resume_analysis_ready(
