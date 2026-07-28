@@ -142,9 +142,9 @@ const AICareerCoachWidget = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const currentAtsScore = latestReport?.ats_score || 88;
-  const currentFileName = latestReport?.filename || 'Resume Document Loaded';
-  const overallRating = latestReport?.overall_rating || 'Excellent Candidate';
+  const currentAtsScore = latestReport?.ats_score || null;
+  const currentFileName = latestReport?.filename || null;
+  const overallRating = latestReport?.overall_rating || null;
 
   const handleSend = async (textToSend) => {
     const text = textToSend || inputMessage;
@@ -461,13 +461,26 @@ const AICareerCoachWidget = () => {
                 <div>
                   <h3 className="text-sm font-extrabold theme-text-heading flex items-center gap-2">
                     🤖 CareerBoost AI Coach
-                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-500 border border-emerald-500/30 font-semibold">
-                      Resume Loaded ✓
-                    </span>
+                    {latestReport ? (
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-500 border border-emerald-500/30 font-semibold">
+                        Resume Loaded ✓
+                      </span>
+                    ) : (
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-500 border border-amber-500/30 font-semibold">
+                        No Resume
+                      </span>
+                    )}
                   </h3>
-                  <p className="text-[11px] theme-text-muted truncate max-w-[240px]">
-                    {currentFileName} • <strong className="theme-text-primary">{currentAtsScore}% ATS</strong>
-                  </p>
+                  {latestReport ? (
+                    <p className="text-[11px] theme-text-muted truncate max-w-[240px]">
+                      {currentFileName} • <strong className="theme-text-primary">{currentAtsScore}% ATS</strong>
+                    </p>
+                  ) : (
+                    <p className="text-[11px] theme-text-muted truncate max-w-[240px]">
+                      Upload your resume to begin
+                    </p>
+                  )}
+
                 </div>
               </div>
 
@@ -552,12 +565,26 @@ const AICareerCoachWidget = () => {
                       <Sparkles className="w-7 h-7" />
                     </div>
                     <h4 className="text-lg font-extrabold theme-text-heading">👋 Welcome back, {user?.username || 'Ramya'}.</h4>
-                    <p className="text-xs theme-text-body leading-relaxed">
-                      I've analyzed your resume document <strong className="theme-text-heading">({currentFileName})</strong>. Current ATS Rating: <strong className="theme-text-primary">{currentAtsScore}% ({overallRating})</strong>.
-                    </p>
-                    <p className="text-xs theme-text-muted">
-                      I'm ready to help you improve your resume, prepare for interviews, generate cover letters, rewrite projects, and plan your career roadmap.
-                    </p>
+                    {latestReport ? (
+                      <>
+                        <p className="text-xs theme-text-body leading-relaxed">
+                          I've analyzed your resume document <strong className="theme-text-heading">({currentFileName})</strong>. Current ATS Rating: <strong className="theme-text-primary">{currentAtsScore}% ({overallRating})</strong>.
+                        </p>
+                        <p className="text-xs theme-text-muted">
+                          I'm ready to help you improve your resume, prepare for interviews, generate cover letters, rewrite projects, and plan your career roadmap.
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <p className="text-xs theme-text-body leading-relaxed text-amber-500 font-semibold">
+                          You haven't uploaded a resume yet.
+                        </p>
+                        <p className="text-xs theme-text-muted">
+                          Please click the <strong>New Resume Analysis</strong> button on your dashboard to upload your PDF or DOCX resume. Once uploaded, I will analyze it instantly to give you personalized optimization tips!
+                        </p>
+                      </>
+                    )}
+
                   </div>
 
                   {/* Categorized Quick Action Grid */}
