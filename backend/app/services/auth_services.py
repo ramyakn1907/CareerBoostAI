@@ -2,7 +2,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from bson import ObjectId
 from datetime import datetime, timezone
-from app.config.database import db, DATABASE_NAME
+from app.config.database import db
 from app.utils.security import verify_password, get_password_hash, verify_access_token
 from app.models.user_model import UserSignUp, UserLogin, UserUpdate, PasswordChange
 
@@ -51,39 +51,31 @@ def create_user_service(user_data: UserSignUp) -> dict:
     return user_doc
 
 def authenticate_user_service(login_data: UserLogin) -> dict:
-    print("=" * 50)
-    print("Database Name:", DATABASE_NAME)
-    print("Collections:", db.list_collection_names())
-
-    users = list(db["users"].find())
-    print("Total users:", len(users))
-
-    for u in users:
-        print(u.get("email"))
-
+    # Try finding by username or email
     user = db["users"].find_one({
         "$or": [
             {"email": login_data.username_or_email},
             {"username": login_data.username_or_email}
         ]
     })
-
-    print("USER FOUND:", user)
-
+    
     if not user:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email/username or password"
         )
-
+    
+    # Verify password
     if not verify_password(login_data.password, user["hashed_password"]):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email/username or password"
         )
-
+    
+    # Convert _id to string for user object
     user["_id"] = str(user["_id"])
     return user
+
 def get_current_user(token: str = Depends(oauth2_scheme)) -> dict:
     """Dependency injection helper to protect routes and retrieve the current user."""
     payload = verify_access_token(token)
