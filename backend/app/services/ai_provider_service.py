@@ -219,27 +219,52 @@ def execute_gemini_request(user_id: str, request_fn: Callable[..., Any], *args, 
 
 def invoke_model_with_fallback(api_key: str, model_name: str, request_fn: Callable[..., Any], *args, **kwargs) -> Any:
     """Helper that runs request_fn while recovering from model availability exceptions using MODEL_FALLBACK_CHAIN."""
+
     models_to_try = [model_name] + [m for m in MODEL_FALLBACK_CHAIN if m != model_name]
-    
+
     last_err = None
+
     for target_model in models_to_try:
         try:
-            # Execute actual call passing configured API key and chosen model name
+            # Execute actual call
             return request_fn(api_key, target_model, *args, **kwargs)
+
         except errors.APIError as api_err:
+
+            # Quota exceeded -> let caller handle it
             if api_err.code == 429:
                 raise api_err
+
+            # Temporary overload -> try the next model
+            if api_err.code == 503:
+                logger.warning(
+                    f"Model {target_model} is temporarily unavailable. Trying next fallback model..."
+                )
+                last_err = api_err
+                time.sleep(2)
+                continue
+
             err_msg = str(api_err).lower()
-            # If the error is not about model validity, propagate it immediately without model fallback
-            if "model" not in err_msg and "not found" not in err_msg and "unsupported" not in err_msg:
-                raise api_err
-            last_err = api_err
-            logger.warning(f"Model {target_model} is unsupported or unavailable. Trying model fallback chain.")
-            continue
+
+            # Unsupported model -> try next fallback model
+            if (
+                "model" in err_msg
+                or "not found" in err_msg
+                or "unsupported" in err_msg
+            ):
+                logger.warning(
+                    f"Model {target_model} is unsupported. Trying next fallback model..."
+                )
+                last_err = api_err
+                continue
+
+            # Any other API error
+            raise api_err
+
         except Exception as general_err:
-            # Rethrow immediately for quota, connection, or authentication errors
             raise general_err
-            
+
     if last_err:
         raise last_err
+
     raise Exception("Model execution chain failed.")
