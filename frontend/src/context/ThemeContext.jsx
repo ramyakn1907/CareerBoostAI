@@ -3,24 +3,25 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 export const themes = {
   sunset: {
     id: 'sunset',
-    name: 'Sunset Coral Glass',
-    description: 'Warm coral, peach ambient glows & deep midnight navy glass.',
-    bg: '#120a1d',
-    sidebar: '#1a0e2e',
-    card: '#24143d',
-    border: 'rgba(251, 146, 60, 0.25)',
-    primary: '#f97316',
-    primaryHover: '#ea580c',
-    secondary: '#1e1b4b',
-    accent: '#ff5733',
+    name: 'Carbon Coral Glass',
+    description: 'Sleek dark carbon background with warm coral primary and teal accents.',
+    bg: '#121214',
+    sidebar: '#1a1a1e',
+    card: '#1e1e22',
+    border: 'rgba(255, 255, 255, 0.08)',
+    primary: '#ff5722',
+    primaryHover: '#f4511e',
+    secondary: '#1e1e22',
+    accent: '#14b8a6',
     heading: '#ffffff',
-    body: '#ffedd5',
-    muted: '#fb923c',
+    body: '#e4e4eb',
+    muted: '#9da4b0',
     success: '#10b981',
     warning: '#f59e0b',
     danger: '#ef4444',
-    badge: 'Signature Sunset'
+    badge: 'Carbon Sunset'
   },
+
   midnight: {
     id: 'midnight',
     name: 'Midnight Blue',
@@ -101,9 +102,11 @@ export const ThemeProvider = ({ children }) => {
     root.style.setProperty('--bg-card', t.card);
     root.style.setProperty('--border-color', t.border);
     root.style.setProperty('--primary', t.primary);
+    root.style.setProperty('--accent', t.accent);
     root.style.setProperty('--text-heading', t.heading);
     root.style.setProperty('--text-body', t.body);
     root.style.setProperty('--text-muted', t.muted);
+
   }, [theme]);
 
   const changeTheme = (newThemeId) => {
