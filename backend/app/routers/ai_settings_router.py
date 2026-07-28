@@ -39,15 +39,28 @@ def verify_and_test_gemini_key(api_key: str) -> Dict[str, Any]:
             available = MODEL_FALLBACK_CHAIN.copy()
             
         # 2. Measure latency with lightweight test call
-        test_model = available[0]
-        response = client.models.generate_content(
-            model=test_model,
-            contents="Ping"
-        )
-        if not response or not response.text:
-            raise ValueError("No response received from Gemini model.")
+        # Try models in order until one succeeds
+        last_err = None
+        test_model = None
+        latency = 9999
+        for model in available:
+            try:
+                response = client.models.generate_content(
+                    model=model,
+                    contents="Ping"
+                )
+                if response and response.text:
+                    test_model = model
+                    latency = int((time.time() - start_time) * 1000)
+                    break
+            except Exception as e:
+                logger.warning(f"Verification test failed for model {model}: {e}")
+                last_err = e
+                continue
+                
+        if not test_model:
+            raise last_err or ValueError("All available models failed generate content verification.")
             
-        latency = int((time.time() - start_time) * 1000)
         return {
             "status": "online",
             "latency": latency,
@@ -57,6 +70,7 @@ def verify_and_test_gemini_key(api_key: str) -> Dict[str, Any]:
     except Exception as e:
         logger.error(f"Gemini API verification failed: {e}")
         raise ValueError(f"Key verification failed: {str(e)}")
+
 
 @router.get("", response_model=AISettingsResponse)
 def get_ai_settings(current_user: dict = Depends(get_current_user)):

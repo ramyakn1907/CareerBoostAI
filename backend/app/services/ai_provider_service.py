@@ -14,7 +14,7 @@ from app.config.database import db
 logger = logging.getLogger(__name__)
 
 # Fallback models in order of priority
-MODEL_FALLBACK_CHAIN = ["gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
+MODEL_FALLBACK_CHAIN = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
 
 def get_crypt_key() -> bytes:
     """Read or derive symmetric key for API key encryption."""
@@ -92,7 +92,7 @@ def get_user_ai_settings(user_id: str) -> dict:
             "provider": "google-gemini",
             "encrypted_api_key": None,
             "preferred_mode": "shared",
-            "selected_model": "gemini-3.5-flash",
+            "selected_model": "gemini-3.6-flash",
             "available_models": MODEL_FALLBACK_CHAIN.copy(),
             "status": "online",
             "latency": 0,
@@ -105,15 +105,16 @@ def get_user_ai_settings(user_id: str) -> dict:
     else:
         # Migrate selected_model and available_models if legacy/deprecated
         if settings.get("selected_model") not in MODEL_FALLBACK_CHAIN:
-            settings["selected_model"] = "gemini-3.5-flash"
+            settings["selected_model"] = "gemini-3.6-flash"
             db["user_ai_settings"].update_one(
                 {"_id": settings["_id"]},
                 {"$set": {
-                    "selected_model": "gemini-3.5-flash",
+                    "selected_model": "gemini-3.6-flash",
                     "available_models": MODEL_FALLBACK_CHAIN.copy()
                 }}
             )
             settings["available_models"] = MODEL_FALLBACK_CHAIN.copy()
+
     
     settings["_id"] = str(settings["_id"])
     return settings
