@@ -2,7 +2,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from bson import ObjectId
 from datetime import datetime, timezone
-from app.config.database import db
+from app.config.database import db, DATABASE_NAME
 from app.utils.security import verify_password, get_password_hash, verify_access_token
 from app.models.user_model import UserSignUp, UserLogin, UserUpdate, PasswordChange
 
@@ -52,10 +52,15 @@ def create_user_service(user_data: UserSignUp) -> dict:
 
 def authenticate_user_service(login_data: UserLogin) -> dict:
     print("=" * 50)
-    print("LOGIN ATTEMPT")
-    print("Email/Username:", login_data.username_or_email)
+    print("Database Name:", DATABASE_NAME)
+    print("Collections:", db.list_collection_names())
 
-    # Try finding by username or email
+    users = list(db["users"].find())
+    print("Total users:", len(users))
+
+    for u in users:
+        print(u.get("email"))
+
     user = db["users"].find_one({
         "$or": [
             {"email": login_data.username_or_email},
@@ -66,38 +71,19 @@ def authenticate_user_service(login_data: UserLogin) -> dict:
     print("USER FOUND:", user)
 
     if not user:
-        print("❌ User not found in database")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email/username or password"
         )
 
-    print("Stored Email:", user.get("email"))
-    print("Stored Username:", user.get("username"))
-    print("Stored Hash:", user.get("hashed_password"))
-
-    # Verify password
-    password_valid = verify_password(
-        login_data.password,
-        user["hashed_password"]
-    )
-
-    print("Password Match:", password_valid)
-
-    if not password_valid:
-        print("❌ Password verification failed")
+    if not verify_password(login_data.password, user["hashed_password"]):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email/username or password"
         )
 
-    print("✅ Login Successful")
-
-    # Convert _id to string
     user["_id"] = str(user["_id"])
-
     return user
-
 def get_current_user(token: str = Depends(oauth2_scheme)) -> dict:
     """Dependency injection helper to protect routes and retrieve the current user."""
     payload = verify_access_token(token)
