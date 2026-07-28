@@ -115,6 +115,11 @@ def init_db():
         # Verify connection
         client.admin.command("ping")
         db = client[DATABASE_NAME]
+        print("=" * 50)
+        print("MongoDB Connected Successfully")
+        print("Database:", DATABASE_NAME)
+        print("Mongo URL:", MONGODB_URL)
+        print("=" * 50)
         logger.info("Connected to MongoDB successfully.")
     except Exception:
         logger.info("Primary MongoDB connection unavailable. Active engine: Persistent Local Storage.")
