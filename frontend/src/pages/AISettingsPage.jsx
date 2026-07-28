@@ -8,7 +8,21 @@ import {
   Trash2, X, Eye, EyeOff, Play, RefreshCw, Layers, ShieldCheck, ChevronRight
 } from 'lucide-react';
 
+const formatLastVerified = (timeString) => {
+  if (!timeString) return 'Never';
+  let dateStr = timeString;
+  if (typeof dateStr === 'string' && !dateStr.endsWith('Z') && !dateStr.includes('+')) {
+    dateStr = dateStr.includes('T') ? dateStr + 'Z' : dateStr.replace(' ', 'T') + 'Z';
+  }
+  try {
+    return new Date(dateStr).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+  } catch (e) {
+    return 'Never';
+  }
+};
+
 const AISettingsPage = () => {
+
   const { user } = useAuth();
   const navigate = useNavigate();
 
@@ -256,7 +270,8 @@ const AISettingsPage = () => {
                   <div className="flex justify-between items-center text-xs">
                     <span className="theme-text-muted">Last Verified</span>
                     <span className="font-mono text-[10px] theme-text-muted">
-                      {settings?.last_verified ? new Date(settings.last_verified).toLocaleTimeString() : 'Never'}
+                      {formatLastVerified(settings?.last_verified)}
+
                     </span>
                   </div>
                 </div>
