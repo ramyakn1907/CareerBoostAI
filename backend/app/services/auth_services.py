@@ -51,6 +51,10 @@ def create_user_service(user_data: UserSignUp) -> dict:
     return user_doc
 
 def authenticate_user_service(login_data: UserLogin) -> dict:
+    print("=" * 50)
+    print("LOGIN ATTEMPT")
+    print("Email/Username:", login_data.username_or_email)
+
     # Try finding by username or email
     user = db["users"].find_one({
         "$or": [
@@ -58,22 +62,40 @@ def authenticate_user_service(login_data: UserLogin) -> dict:
             {"username": login_data.username_or_email}
         ]
     })
-    
+
+    print("USER FOUND:", user)
+
     if not user:
+        print("❌ User not found in database")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email/username or password"
         )
-    
+
+    print("Stored Email:", user.get("email"))
+    print("Stored Username:", user.get("username"))
+    print("Stored Hash:", user.get("hashed_password"))
+
     # Verify password
-    if not verify_password(login_data.password, user["hashed_password"]):
+    password_valid = verify_password(
+        login_data.password,
+        user["hashed_password"]
+    )
+
+    print("Password Match:", password_valid)
+
+    if not password_valid:
+        print("❌ Password verification failed")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email/username or password"
         )
-    
-    # Convert _id to string for user object
+
+    print("✅ Login Successful")
+
+    # Convert _id to string
     user["_id"] = str(user["_id"])
+
     return user
 
 def get_current_user(token: str = Depends(oauth2_scheme)) -> dict:
