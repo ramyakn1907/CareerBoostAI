@@ -2,16 +2,12 @@
 
 <div align="center">
 
-### AI-Powered Career Development Platform
+## AI-Powered Career Development Platform
 
-Helping students and professionals optimize resumes, improve ATS scores, and receive personalized career guidance through an intelligent AI Career Coach.
+**CareerBoost AI combines AI-powered resume analysis with a personalized AI Career Coach to help students and professionals optimize resumes, improve ATS scores, prepare for interviews, and accelerate their career growth.**
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-success?style=for-the-badge)](https://career-boost-ai-snowy.vercel.app)
-[![Backend API](https://img.shields.io/badge/⚡_Backend-Render-blue?style=for-the-badge)](https://careerboostai.onrender.com)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)]
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)]
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)]
-[![Google Gemini](https://img.shields.io/badge/Google-Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)]
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/ramyakn1907/CarrerBoostAI)
 
 </div>
 
@@ -19,9 +15,23 @@ Helping students and professionals optimize resumes, improve ATS scores, and rec
 
 # 📌 Overview
 
-CareerBoost AI is a modern full-stack web application that helps users build stronger resumes, improve ATS compatibility, receive personalized career guidance, and prepare for interviews using Google Gemini AI.
+CareerBoost AI is a full-stack AI-powered web application designed to help students and professionals strengthen their resumes, improve ATS compatibility, prepare for interviews, and receive personalized career guidance.
 
-Unlike a generic chatbot, CareerBoost AI understands the user's resume and provides contextual career guidance tailored to their skills, education, and professional goals.
+The platform combines intelligent resume analysis with a context-aware AI Career Coach that understands each user's resume, skills, education, and career goals. Based on this context, it provides tailored recommendations, interview preparation, learning roadmaps, project suggestions, and practical career advice.
+
+---
+
+# 🌟 Highlights
+
+- 🤖 Personalized AI Career Coach powered by Google Gemini
+- 📄 AI-powered Resume Analysis
+- 📊 ATS Score Evaluation
+- 💬 Context-aware Career Guidance
+- 🔐 Secure JWT Authentication
+- 🔒 Encrypted Personal Gemini API Keys
+- ⚙️ Shared & Personal AI Provider Support
+- ☁️ Cloud Deployment using Vercel & Render
+- 🗄️ MongoDB Atlas Cloud Database
 
 ---
 
@@ -29,7 +39,8 @@ Unlike a generic chatbot, CareerBoost AI understands the user's resume and provi
 
 ## 🔐 Authentication
 
-- Secure User Registration & Login
+- User Registration
+- User Login
 - JWT Authentication
 - Password Hashing
 - Protected Routes
@@ -39,32 +50,33 @@ Unlike a generic chatbot, CareerBoost AI understands the user's resume and provi
 
 ## 📄 Resume Analysis
 
-- Upload PDF Resume
-- AI Resume Analysis
-- ATS Score Generation
+- Upload Resume (PDF)
+- AI-powered Resume Analysis
+- ATS Score Calculation
 - Resume Strength Evaluation
 - Missing Skills Detection
 - Resume Improvement Suggestions
-- Keyword Recommendations
+- Resume Keyword Recommendations
 
 ---
 
 ## 🤖 AI Career Coach
 
-The AI Career Coach provides personalized guidance including:
+CareerBoost AI includes an intelligent AI assistant capable of providing:
 
-- Career Advice
+- Personalized Career Guidance
 - Resume Review
-- ATS Optimization
-- Interview Preparation
+- ATS Optimization Tips
+- Technical Interview Preparation
+- HR Interview Preparation
 - Learning Roadmaps
-- Technology Explanations
 - Skill Recommendations
 - Career Planning
 - Project Suggestions
 - Certification Recommendations
+- Technology Explanations
 
-Responses are conversational, professional, and personalized using the user's resume context.
+The assistant understands the uploaded resume and provides personalized responses instead of generic chatbot replies.
 
 ---
 
@@ -75,38 +87,40 @@ Users can choose between:
 - Shared Gemini API
 - Personal Gemini API
 
-Features:
+Features include:
 
 - API Key Verification
-- Encrypted API Storage
+- Secure API Key Encryption
 - Dynamic Model Detection
-- AI Health Check
-- Latency Monitoring
+- AI Connection Health Monitoring
+- Latency Testing
 - Model Selection
-- Connection Status
+- API Status Monitoring
 
 ---
 
 ## 📊 Dashboard
 
+- Resume Upload
 - Resume History
 - Analysis Reports
-- User Profile
+- AI Career Coach
 - AI Settings
-- Career Assistant
+- User Profile
 - Account Settings
 
 ---
 
 # 🛡 Security
 
-CareerBoost AI follows modern security practices.
+CareerBoost AI follows secure development practices.
 
 - JWT Authentication
-- Password Hashing (bcrypt)
+- Password Hashing using bcrypt
 - Encrypted Personal API Keys
-- Secure Environment Variables
 - Protected Backend APIs
+- Secure Environment Variables
+- Input Validation using Pydantic
 
 ---
 
@@ -134,7 +148,7 @@ CareerBoost AI follows modern security practices.
 
 - MongoDB Atlas
 
-## AI
+## Artificial Intelligence
 
 - Google Gemini API
 
@@ -181,6 +195,12 @@ CareerBoostAI
 │   ├── package.json
 │   └── vite.config.js
 │
+├── screenshots
+│   ├── home.png
+│   ├── dashboard.png
+│   ├── resume-analysis.png
+│   └── ai-career-coach.png
+│
 └── README.md
 ```
 
@@ -188,13 +208,35 @@ CareerBoostAI
 
 # 🚀 Live Demo
 
-### Frontend
+🌐 **Application**
 
 https://career-boost-ai-snowy.vercel.app
 
-### Backend API
+---
 
-YOUR_RENDER_BACKEND_URL
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 📄 Resume Analysis
+
+![Resume Analysis](screenshots/resume-analysis.png)
+
+---
+
+## 🤖 AI Career Coach
+
+![AI Career Coach](screenshots/ai-provider.png)
 
 ---
 
@@ -203,12 +245,12 @@ YOUR_RENDER_BACKEND_URL
 ## Clone Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ramyakn1907/CarrerBoostAI.git
 ```
 
 ---
 
-## Backend
+## Backend Setup
 
 ```bash
 cd backend
@@ -236,7 +278,7 @@ GEMINI_API_KEY=
 
 ---
 
-## Frontend
+## Frontend Setup
 
 ```bash
 cd frontend
@@ -248,26 +290,27 @@ npm run dev
 
 ---
 
-# 💡 AI Career Coach
+# 🧠 AI Career Coach
 
-The AI Career Coach understands the uploaded resume and provides personalized responses based on the user's background.
+The AI Career Coach understands the uploaded resume and provides personalized career guidance.
 
-It can:
+It can help users:
 
-- Improve resumes
-- Explain technologies
-- Recommend projects
-- Suggest certifications
-- Prepare interview questions
-- Create learning roadmaps
-- Recommend career paths
-- Answer career-related questions
+- Improve ATS Scores
+- Enhance Resume Quality
+- Prepare for Interviews
+- Explain Technical Concepts
+- Recommend Projects
+- Suggest Certifications
+- Build Personalized Learning Roadmaps
+- Plan Career Growth
+- Answer Career-related Questions
 
 ---
 
 # 🌟 Future Enhancements
 
-- AI Mock Interviews
+- AI Mock Interview Simulator
 - Resume Builder
 - Cover Letter Generator
 - LinkedIn Profile Analyzer
@@ -275,14 +318,14 @@ It can:
 - Skill Gap Analysis
 - Company-specific Interview Preparation
 - AI Voice Career Coach
-- Mobile Application
 - Multi-language Support
+- Mobile Application
 
 ---
 
 # 📄 License
 
-This project is developed for educational, learning, and portfolio purposes.
+This project is intended for educational, learning, and portfolio purposes.
 
 ---
 
@@ -290,16 +333,15 @@ This project is developed for educational, learning, and portfolio purposes.
 
 **Ramya K N**
 
-GitHub: https://github.com/ramyakn1907
-
-LinkedIn: *(Add your LinkedIn profile here)*
+- 🌐 Live Demo: https://career-boost-ai-snowy.vercel.app
+- 💻 GitHub: https://github.com/ramyakn1907
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, consider giving it a Star!
+### ⭐ If you found this project useful, consider giving it a star!
 
-Made with ❤️ using React, FastAPI, MongoDB Atlas & Google Gemini AI.
+Built with ❤️ using **React**, **FastAPI**, **MongoDB Atlas**, and **Google Gemini AI**.
 
 </div>
