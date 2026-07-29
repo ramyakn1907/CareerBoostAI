@@ -230,7 +230,7 @@ https://career-boost-ai-snowy.vercel.app
 
 ## 📄 Resume Analysis
 
-![Resume Analysis](screenshots/resume-analysis.png)
+![Resume Analysis](screenshots/resume_analysis.png)
 
 ---
 
