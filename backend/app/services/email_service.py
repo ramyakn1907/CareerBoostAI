@@ -31,7 +31,10 @@ def send_email_notification(to_email: str, subject: str, html_content: str) -> b
         try:
             logger.info("Attempting to send email via Resend API...")
             from_email = SENDER_EMAIL
-            if "onboarding@resend.dev" in from_email or not from_email:
+            # Auto-fallback to onboarding domain if sender is empty, has onboarding domain, or uses a public domain (which cannot be verified on Resend)
+            public_domains = ["@gmail.com", "@yahoo.com", "@hotmail.com", "@outlook.com", "@icloud.com", "@aol.com"]
+            is_public_sender = any(domain in from_email.lower() for domain in public_domains)
+            if "onboarding@resend.dev" in from_email or not from_email or is_public_sender:
                 from_email = "CareerBoost AI <onboarding@resend.dev>"
             
             headers = {
