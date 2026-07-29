@@ -52,9 +52,9 @@ def send_email_notification(to_email: str, subject: str, html_content: str) -> b
                 logger.info(f"✅ Email delivered via Resend API to {to_email}")
                 return True
             else:
-                logger.error(f"Resend API error: {res.status_code} - {res.text}")
+                logger.warning(f"⚠️ Resend API error ({res.status_code}): {res.text}. Attempting fallback provider...")
         except Exception as e:
-            logger.error(f"Failed to send email via Resend API: {e}")
+            logger.warning(f"⚠️ Resend API exception: {e}. Attempting fallback provider...")
 
     # 2. Try Brevo API (HTTP Port 443 - Bypasses Render Port Block)
     if BREVO_API_KEY:
