@@ -1,22 +1,35 @@
 # 🚀 CareerBoost AI
 
-> **An AI-powered career development platform that helps students and professionals optimize their resumes, improve ATS scores, prepare for interviews, and receive personalized career guidance through an intelligent AI career coach.**
+<div align="center">
+
+### AI-Powered Career Development Platform
+
+Helping students and professionals optimize resumes, improve ATS scores, and receive personalized career guidance through an intelligent AI Career Coach.
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-success?style=for-the-badge)](https://career-boost-ai-snowy.vercel.app)
+[![Backend API](https://img.shields.io/badge/⚡_Backend-Render-blue?style=for-the-badge)](https://careerboostai.onrender.com)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)]
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)]
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)]
+[![Google Gemini](https://img.shields.io/badge/Google-Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)]
+
+</div>
 
 ---
 
 # 📌 Overview
 
-CareerBoost AI is a full-stack web application built to simplify career preparation using Artificial Intelligence. It combines resume analysis, ATS optimization, interview preparation, personalized career coaching, and secure AI integration into a single platform.
+CareerBoost AI is a modern full-stack web application that helps users build stronger resumes, improve ATS compatibility, receive personalized career guidance, and prepare for interviews using Google Gemini AI.
 
-Unlike a generic chatbot, CareerBoost AI acts as a **professional AI Career Coach**, providing personalized guidance based on the user's resume, skills, education, and career goals.
+Unlike a generic chatbot, CareerBoost AI understands the user's resume and provides contextual career guidance tailored to their skills, education, and professional goals.
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-## 🔐 Authentication & Security
+## 🔐 Authentication
 
-- Secure User Registration and Login
+- Secure User Registration & Login
 - JWT Authentication
 - Password Hashing
 - Protected Routes
@@ -27,62 +40,50 @@ Unlike a generic chatbot, CareerBoost AI acts as a **professional AI Career Coac
 ## 📄 Resume Analysis
 
 - Upload PDF Resume
-- AI-powered Resume Analysis
-- ATS Compatibility Score
+- AI Resume Analysis
+- ATS Score Generation
 - Resume Strength Evaluation
 - Missing Skills Detection
-- Keyword Suggestions
-- Personalized Resume Improvement Tips
+- Resume Improvement Suggestions
+- Keyword Recommendations
 
 ---
 
 ## 🤖 AI Career Coach
 
-CareerBoost AI provides an intelligent career assistant capable of:
+The AI Career Coach provides personalized guidance including:
 
-- Personalized Career Guidance
-- Resume Improvement Suggestions
-- ATS Optimization Advice
-- Technical & HR Interview Preparation
+- Career Advice
+- Resume Review
+- ATS Optimization
+- Interview Preparation
 - Learning Roadmaps
+- Technology Explanations
 - Skill Recommendations
 - Career Planning
-- Project Recommendations
-- Technology Explanations
-- Professional Career Mentoring
+- Project Suggestions
+- Certification Recommendations
 
-The assistant responds naturally like an experienced career mentor rather than a traditional chatbot.
+Responses are conversational, professional, and personalized using the user's resume context.
 
 ---
 
-## ⚙️ AI Provider Management
+## ⚙️ AI Provider Settings
 
 Users can choose between:
 
 - Shared Gemini API
 - Personal Gemini API
 
-Features include:
+Features:
 
 - API Key Verification
-- Secure API Key Encryption
+- Encrypted API Storage
 - Dynamic Model Detection
-- AI Health Monitoring
-- Latency Testing
+- AI Health Check
+- Latency Monitoring
 - Model Selection
-- API Status Monitoring
-
----
-
-## 📧 Email Notifications
-
-Automatic email notifications are sent for:
-
-- Welcome Email after Registration
-- Successful Login Detection
-- API Key Added
-- API Key Removed
-- Security Notifications
+- Connection Status
 
 ---
 
@@ -99,14 +100,13 @@ Automatic email notifications are sent for:
 
 # 🛡 Security
 
-CareerBoost AI follows secure development practices.
+CareerBoost AI follows modern security practices.
 
 - JWT Authentication
-- Password Hashing
-- Encrypted Gemini API Keys
+- Password Hashing (bcrypt)
+- Encrypted Personal API Keys
 - Secure Environment Variables
 - Protected Backend APIs
-- Gmail SMTP Authentication
 
 ---
 
@@ -127,21 +127,21 @@ CareerBoost AI follows secure development practices.
 - Python
 - Uvicorn
 - Pydantic
-- JWT Authentication
 - Passlib
+- JWT Authentication
 
 ## Database
 
 - MongoDB Atlas
 
-## Artificial Intelligence
+## AI
 
 - Google Gemini API
 
-## Email Service
+## Deployment
 
-- Gmail SMTP
-- FastAPI Background Tasks
+- Vercel
+- Render
 
 ## Version Control
 
@@ -152,14 +152,13 @@ CareerBoost AI follows secure development practices.
 
 # 📂 Project Structure
 
-```
+```text
 CareerBoostAI
 │
 ├── backend
 │   ├── app
 │   │   ├── ai
 │   │   ├── config
-│   │   ├── data
 │   │   ├── models
 │   │   ├── routers
 │   │   ├── services
@@ -187,17 +186,29 @@ CareerBoostAI
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Live Demo
 
-## Clone the Repository
+### Frontend
+
+https://career-boost-ai-snowy.vercel.app
+
+### Backend API
+
+YOUR_RENDER_BACKEND_URL
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/ramyakn1907/CarrerBoostAI.git
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
 ---
 
-## Backend Setup
+## Backend
 
 ```bash
 cd backend
@@ -207,6 +218,8 @@ python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
+
+uvicorn app.main:app --reload
 ```
 
 Create a `.env` file:
@@ -219,32 +232,11 @@ DATABASE_NAME=
 JWT_SECRET=
 
 GEMINI_API_KEY=
-
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-
-SMTP_USERNAME=
-
-SMTP_PASSWORD=
-
-SMTP_FROM=
-```
-
-Start the backend server:
-
-```bash
-uvicorn app.main:app --reload
-```
-
-Backend:
-
-```
-http://localhost:8000
 ```
 
 ---
 
-## Frontend Setup
+## Frontend
 
 ```bash
 cd frontend
@@ -254,31 +246,22 @@ npm install
 npm run dev
 ```
 
-Frontend:
-
-```
-http://localhost:5173
-```
-
 ---
 
-# 🧠 AI Career Coach
+# 💡 AI Career Coach
 
-CareerBoost AI includes a professional AI Career Coach designed to assist users throughout their career journey.
+The AI Career Coach understands the uploaded resume and provides personalized responses based on the user's background.
 
 It can:
 
-- Analyze resumes
-- Improve ATS compatibility
-- Recommend career paths
-- Suggest projects
+- Improve resumes
+- Explain technologies
+- Recommend projects
+- Suggest certifications
 - Prepare interview questions
-- Explain technical concepts
-- Recommend certifications
-- Build personalized learning roadmaps
-- Answer career-related questions using the user's profile as context
-
-The assistant provides conversational, personalized guidance instead of generic responses.
+- Create learning roadmaps
+- Recommend career paths
+- Answer career-related questions
 
 ---
 
@@ -292,15 +275,14 @@ The assistant provides conversational, personalized guidance instead of generic 
 - Skill Gap Analysis
 - Company-specific Interview Preparation
 - AI Voice Career Coach
-- Multi-language Support
 - Mobile Application
-- Admin Analytics Dashboard
+- Multi-language Support
 
 ---
 
 # 📄 License
 
-This project is intended for educational, learning, and portfolio purposes.
+This project is developed for educational, learning, and portfolio purposes.
 
 ---
 
@@ -308,9 +290,16 @@ This project is intended for educational, learning, and portfolio purposes.
 
 **Ramya K N**
 
-GitHub:
-https://github.com/ramyakn1907
+GitHub: https://github.com/ramyakn1907
+
+LinkedIn: *(Add your LinkedIn profile here)*
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
+<div align="center">
+
+### ⭐ If you like this project, consider giving it a Star!
+
+Made with ❤️ using React, FastAPI, MongoDB Atlas & Google Gemini AI.
+
+</div>
